@@ -7,9 +7,10 @@ ultima_atualizacao: Dia/mês/ano
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
-# [Nome do projeto]
+# [Ben 10 Fan Page]
 
-[Descrição em uma ou duas frases: qual problema o site resolve e para quem.]
+[Aqui você encontra um breve resumo da experiência fantástica do universo de Ben 10.
+Se você é um amante do desenho ou está iniciando nesse universo, esse é o lugar certo!]
 
 ## Integrantes
 
