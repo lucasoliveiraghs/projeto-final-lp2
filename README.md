@@ -1,5 +1,5 @@
 ---
-titulo: Projeto final - Laboratório de Programação 2 (Web)
+titulo: Projeto final - Laboratório de Programação 2 (Web) - Ben 10 Fan page
 descricao: Visão geral do projeto, integrantes, link do site publicado, do protótipo no Figma e da apresentação, além da organização do repositório.
 autores: Nome do integrante 1, Nome do integrante 2, Nome do integrante 3
 versao: v1.0
