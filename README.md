@@ -7,23 +7,23 @@ ultima_atualizacao: Dia/mês/ano
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
-# [Ben 10 Fan Page]
+# Ben 10 Fan Page
 
-[Aqui você encontra um breve resumo da experiência fantástica do universo de Ben 10.
-Se você é um amante do desenho ou está iniciando nesse universo, esse é o lugar certo!]
+Aqui você encontra um breve resumo da experiência fantástica do universo de Ben 10.
+Se você é um amante do desenho ou está iniciando nesse universo, esse é o lugar certo!
 
 ## Integrantes
 
 | Nome | Onde atuou no projeto? (Mínimo de 3 frentes diferentes para cada aluno) |
 |---|---|
-| [Nome completo] | [Ex.: Figma, estrutura HTML e documentação] |
+| Lucas Gabriel Oliveira Reis dos Santos | Figma, estrutura HTML, estrutura CSS, estrutura Javacript, Responsividade e documentação] |
 | [Nome completo] | [Ex.: estilos CSS, JS e responsividade] |
 | [Nome completo] | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
 
 ## Links
 
 - **Site publicado (GitHub Pages):** [https://USUARIO.github.io/projeto-final-lp2/](https://USUARIO.github.io/projeto-final-lp2/)
-- **Protótipo no Figma:** [link]
+- **Protótipo no Figma:** https://www.figma.com/design/uGAIsYpAQe92CmqXTbWBQ5/B10-Figma?node-id=0-1&p=f&t=LyEg5Ck1r8Ay33Zc-0
 - **Apresentação:** [link dos slides]
 
 ## Estrutura do repositório
