@@ -18,7 +18,7 @@ Se você é um amante do desenho ou está iniciando nesse universo, esse é o lu
 |---|---|
 | Lucas Gabriel Oliveira Reis dos Santos | Figma, estrutura HTML, estrutura CSS, estrutura JavaScript, Responsividade e documentação |
 | Pedro Almeida Ribeiro De Castro | Figma, estrutura HTML, estrutura CSS, estrutura JavaScript, apresentação, atualização da documentação|
-| [Nome completo] | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
+| Thiago Henrique Cabral Do Nascimento] | [Figma, estrutura HTML, estrutura CSS, estrutura Javascript, apresentação, atualização da documentação |
 
 ## Links
 
