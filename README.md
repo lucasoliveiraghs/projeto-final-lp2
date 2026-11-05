@@ -17,7 +17,7 @@ Se você é um amante do desenho ou está iniciando nesse universo, esse é o lu
 | Nome | Onde atuou no projeto? (Mínimo de 3 frentes diferentes para cada aluno) |
 |---|---|
 | Lucas Gabriel Oliveira Reis dos Santos | Figma, estrutura HTML, estrutura CSS, estrutura JavaScript, Responsividade e documentação |
-| Pedro Almeida Ribeiro De Castro | Figma, estrutura HTML, estrutura CSS, estrutura JavaScript, apresentação |
+| Pedro Almeida Ribeiro De Castro | Figma, estrutura HTML, estrutura CSS, estrutura JavaScript, apresentação, atualização da documentação|
 | [Nome completo] | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
 
 ## Links
