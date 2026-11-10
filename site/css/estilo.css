@@ -1,0 +1,41 @@
+:root{
+    --branco: #FBFBFD;
+    --preto: #222;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div-conteiner-header{
+    background-color: var(--preto);
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1rem;
+    border-bottom: 0.15rem solid var(--branco);
+}
+
+.div-esquerda-header{
+    width: 4rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-direita-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    width: 4rem;
+    height: 3rem;
+}
+
+.div-direita-header, span{
+    size: 4rem;
+}
