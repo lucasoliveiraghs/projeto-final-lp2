@@ -71,4 +71,66 @@ nav{
     border: 0.15rem solid var(--branco);
 }
 
+footer{
+    background-color: var(--preto);
+    margin-top: 4rem;
+    border-top: 0.15rem solid var(--branco);
+}
+
+.div-conteiner-footer{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 0.5rem;
+    border-bottom: 0.15rem solid var(--branco);
+}
+
+.h3-footer{
+    color: var(--verde-medio);
+    font-size: 0.8rem;
+}
+
+.li-footer{
+    color: var(--branco);
+}
+
+.li-footer, a{
+    color: var(--branco);
+    font-size: 0.7rem;
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+#github-logo{
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#whatsapp-logo{
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#instagram-logo{
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.feito-por{
+    color: var(--branco);
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 0.625rem;
+}
+
 
