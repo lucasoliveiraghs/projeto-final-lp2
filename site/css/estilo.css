@@ -9,6 +9,44 @@
     padding: 0;
 }
 
+.protest-revolution-regular {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+#div-pai-de-todas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.back-geral{
+    background-image: url("../assets/img/Background.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .div-conteiner-header{
     background-color: var(--preto);
     display: flex;
@@ -38,7 +76,7 @@
     height: 3rem;
 }
 
-.div-direita-header, span{
+.div-direita-header{
     size: 4rem;
 }
 
@@ -49,6 +87,7 @@
     border-bottom: 0.1rem solid var(--branco);
     border-top: 0.1rem solid var(--branco);
     align-items: center;
+    font-family: "Open Sans", sans-serif;
 }
 
 .link-branco{
@@ -58,6 +97,7 @@
     align-items: center;
     border-bottom: 0.1rem solid var(--branco);
     border-top: 0.1rem solid var(--branco);
+    font-family: "Open Sans", sans-serif;
 }
 
 nav{
@@ -73,7 +113,6 @@ nav{
 
 footer{
     background-color: var(--preto);
-    margin-top: 4rem;
     border-top: 0.15rem solid var(--branco);
 }
 
@@ -88,6 +127,7 @@ footer{
 .h3-footer{
     color: var(--verde-medio);
     font-size: 0.8rem;
+    font-family: "Open Sans", sans-serif;
 }
 
 .li-footer{
@@ -97,6 +137,7 @@ footer{
 .li-footer, a{
     color: var(--branco);
     font-size: 0.7rem;
+    font-family: "Open Sans", sans-serif;
 }
 
 .alinhamento{
@@ -131,6 +172,61 @@ footer{
     display: flex;
     justify-content: center;
     font-size: 0.625rem;
+    font-family: "Open Sans", sans-serif;
 }
+
+.ben-vindo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.ben-vindo h1{
+    font-family: "Protest Revolution", sans-serif;
+    justify-content: center;
+    display: flex;
+    font-size: 3rem;
+    color: var(--preto);
+    -webkit-text-stroke: 0.5rem var(--verde-medio);
+    paint-order: stroke fill;
+}
+
+.ben-vindo h2{
+    font-family: inter, sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    color: var(--branco);
+    -webkit-text-stroke: 0.2rem var(--preto);
+    paint-order: stroke fill;
+    margin-bottom: 4rem;
+}
+
+.logo-grande{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.logo-grande img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.img-omnitrix{
+    display: flex;
+    justify-content: center;
+}
+
+.omnitrix{
+    margin-bottom: 3rem;
+}
+
+
+
 
 
