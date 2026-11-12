@@ -5,6 +5,9 @@ https://www.figma.com/design/uGAIsYpAQe92CmqXTbWBQ5/B10-Figma?node-id=0-1&t=IpKC
 Preto: #222222 Verde-escuro: #328336 Verde: #64CC4F Verde-Claro:#B2E05B Branco: #FBFBFD
 
 # Decisões de design
+Decidimos criar uma pagina de personagens para acessar as paginas de heróis e de vilões.
+Nas páginas de aliens especificas decidimos mudar as fontes e dos icones e do footer
+Decidimos tirar as barras que separam a logo do conteúdo do header
 
 
 # Fontes de ícones e imagens usadas no site
