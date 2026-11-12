@@ -41,7 +41,7 @@
 }
 
 .back-geral{
-    background-image: url("../assets/img/Background.svg");
+    background-image: url("../assets/img/backgrounds/Background.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,6 +69,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
+}
+
+.div-direita-header a{
+    color: var(--branco);
 }
 
 .logo-img{
@@ -220,6 +224,11 @@ footer{
 .img-omnitrix{
     display: flex;
     justify-content: center;
+}
+
+.img-omnitrix img{
+    width: 13rem;
+    height: auto;
 }
 
 .omnitrix{
