@@ -32,12 +32,10 @@ Chama: https://static.wikia.nocookie.net/ben10/images/0/05/Yj6j6j66.png/revision
 Diamante: https://static.wikia.nocookie.net/ub10fanfiction/images/7/70/Diamante_OS_1.png/revision/latest?cb=20201218181845&path-prefix=pt-br
 xrl 8: https://static.wikia.nocookie.net/ben10reboot/images/b/b2/XLR8_%284%29.png/revision/latest/scale-to-width-down/250?cb=20170430012616&path-prefix=pt-br
 
-Ominitrix:
-
-Chama:
+Chama: https://static.wikia.nocookie.net/ub10fanfiction/images/f/f3/ChamaSOTabber.png/revision/latest/scale-to-width/360?cb=20150202175350&path-prefix=pt-br
 
 Diamante: https://static.wikia.nocookie.net/ben10/images/6/65/DioMonto.png/revision/latest/scale-to-width/360?cb=20131211205051&path-prefix=pt
 
 Vilgax: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdhRJHjfKld8jG5H2_aACWxjzmq2KAcXmc9GbmGY7Ekg&s=10
 
-Ben 10:
+Ben 10: https://futaricombii.com/wp-content/uploads/2023/01/FEAy5zgXoAUW0s7.jpg
