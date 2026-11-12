@@ -1,0 +1,254 @@
+:root{
+    --branco: #FBFBFD;
+    --preto: #222;
+    --verde-medio: #64CC4F;
+    --verde-agua-claro: #C2EAD2;
+    --verde-agua-escuro: #99D5BA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.protest-revolution-regular {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+header{
+    position: sticky;
+    z-index: 1000;
+}
+
+#div-pai-de-todas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.back-geral{
+    background-image: url("../assets/img/backgrounds/background-diamante.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-conteiner-header{
+    background-color: var(--preto);
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1rem;
+    border-bottom: 0.15rem solid var(--verde-agua-claro);
+}
+
+.div-esquerda-header{
+    width: 4rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-direita-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.div-direita-header a{
+    color: var(--verde-agua-claro);
+}
+
+.logo-img{
+    width: 4rem;
+    height: 3rem;
+}
+
+.div-direita-header{
+    size: 4rem;
+}
+
+.link-verde{
+    color: var(--verde-medio);
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.1rem solid var(--verde-agua-claro);
+    border-top: 0.1rem solid var(--verde-agua-claro);
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.link-branco{
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--verde-agua-claro);
+    border-top: 0.1rem solid var(--verde-agua-claro);
+    font-family: "Open Sans", sans-serif;
+}
+
+nav{
+    position: relative;
+}
+
+#navbarBasicExample{
+    position: absolute;
+    top: 100%;
+    background-color: var(--preto);
+    border: 0.15rem solid var(--verde-agua-claro);;
+}
+
+footer{
+    background-color: var(--preto);
+    border-top: 0.15rem solid var(--verde-agua-claro);
+}
+
+.div-conteiner-footer{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 0.5rem;
+    border-bottom: 0.15rem solid var(--verde-agua-claro);
+}
+
+.h3-footer{
+    color: var(--verde-agua-escuro);
+    font-size: 0.8rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.li-footer{
+    color: var(--branco);
+}
+
+.li-footer, a{
+    color: var(--branco);
+    font-size: 0.7rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+#github-logo{
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    color: var(--verde-agua-escuro);
+}
+
+#whatsapp-logo{
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#instagram-logo{
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.feito-por{
+    color: var(--branco);
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 0.625rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.inicio-quiz{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.inicio-quiz h1{
+    font-family: "Protest Revolution", sans-serif;
+    justify-content: center;
+    display: flex;
+    font-size: 3rem;
+    color: var(--preto);
+    -webkit-text-stroke: 0.5rem var(--verde-agua-escuro);
+    paint-order: stroke fill;
+    margin-bottom: 4rem;
+}
+
+.inicio-quiz h2{
+    font-family: inter, sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    color: var(--branco);
+    -webkit-text-stroke: 0.2rem var(--preto);
+    paint-order: stroke fill;
+    margin-bottom: 4rem;
+}
+
+.div-img-inicial{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.div-img-inicial img{
+    width: 5rem;
+    height: auto;
+}
+
+.div-tabela{
+    background-color: var(--preto);
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    margin-bottom: 4rem;
+}
+
+table{
+    width: 100%;
+    border: solid 0.2rem var(--verde-agua-escuro);
+    color: white;
+    font-family: "Protest Revolution", sans-serif;
+    text-align: center;
+}
+
+table tr{
+    font-size: 0.8rem;
+    color: var(--preto);
+    -webkit-text-stroke: 0.2rem var(--verde-agua-escuro);
+    paint-order: stroke fill;
+}
+
+

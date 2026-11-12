@@ -47,6 +47,11 @@
     background-repeat: no-repeat;
 }
 
+header{
+    position: sticky;
+    z-index: 1000;
+}
+
 .div-conteiner-header{
     background-color: var(--preto);
     display: flex;

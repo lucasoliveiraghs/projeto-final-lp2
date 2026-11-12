@@ -32,6 +32,11 @@
     align-items: center;
 }
 
+header{
+    position: sticky;
+    z-index: 1000;
+}
+
 .div-direita-header{
     display: flex;
     justify-content: center;
