@@ -183,14 +183,14 @@ footer{
     font-family: "Open Sans", sans-serif;
 }
 
-.inicio-quiz{
+.todo-quiz{
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 3rem;
 }
 
-.inicio-quiz h1{
+.todo-quiz h1{
     font-family: "Protest Revolution", sans-serif;
     justify-content: center;
     display: flex;
@@ -201,7 +201,7 @@ footer{
     margin-bottom: 4rem;
 }
 
-.inicio-quiz h2{
+.todo-quiz h2{
     font-family: inter, sans-serif;
     justify-content: center;
     display: flex;
