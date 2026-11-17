@@ -183,3 +183,55 @@ header{
     position: sticky;
     z-index: 1000;
 }
+
+.section-creditos{
+    background-image: url("../assets/img/backgrounds/Background.svg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+}
+
+.titulo-personagens{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--branco);
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: var(--preto);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400; 
+    padding: 3rem;
+    -webkit-text-stroke: 0.5rem var(--verde-medio);
+    paint-order: stroke fill;
+}
+
+.autor{
+    display: flex;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5rem;
+
+}
+
+.autorimg{
+    padding: 1.5rem;
+    height: 8rem;
+    width: auto;
+
+}
+
+.textoautor{
+    text-align: justify;
+    color: var(--branco);
+    font-size: 0.7rem;
+}
