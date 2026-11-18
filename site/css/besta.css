@@ -1,8 +1,8 @@
 :root{
     --branco: #FBFBFD;
     --preto: #222;
-    --ocre-palido: #FF9642;
-    --verde-acido: #F37021;
+    --laranja-claro: #FF9642;
+    --laranja-escuro: #F37021;
     --preto-escuro: #000000;
     --preto-opaco: rgba(0, 0, 0, 0.3);
 }
@@ -60,7 +60,7 @@ header{
     justify-content: center;
     gap: 4rem;
     padding: 1rem;
-    border-bottom: 0.15rem solid var(--ocre-palido);
+    border-bottom: 0.15rem solid var(--laranja-claro);
 }
 
 .div-esquerda-header{
@@ -79,7 +79,7 @@ header{
 }
 
 .div-direita-header a{
-    color: var(--ocre-palido);
+    color: var(--laranja-claro);
 }
 
 .logo-img{
@@ -92,11 +92,11 @@ header{
 }
 
 .link-verde{
-    color: var(--verde-acido);
+    color: var(--laranja-escuro);
     display: flex;
     justify-content: center;
-    border-bottom: 0.1rem solid var(--ocre-palido);
-    border-top: 0.1rem solid var(--ocre-palido);
+    border-bottom: 0.1rem solid var(--laranja-claro);
+    border-top: 0.1rem solid var(--laranja-claro);
     align-items: center;
     font-family: "Open Sans", sans-serif;
 }
@@ -106,8 +106,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 0.1rem solid var(--ocre-palido);
-    border-top: 0.1rem solid var(--ocre-palido);
+    border-bottom: 0.1rem solid var(--laranja-claro);
+    border-top: 0.1rem solid var(--laranja-claro);
     font-family: "Open Sans", sans-serif;
 }
 
@@ -119,12 +119,12 @@ nav{
     position: absolute;
     top: 100%;
     background-color: var(--preto);
-    border: 0.15rem solid var(--ocre-palido);;
+    border: 0.15rem solid var(--laranja-claro);;
 }
 
 footer{
     background-color: var(--preto);
-    border-top: 0.15rem solid var(--ocre-palido);
+    border-top: 0.15rem solid var(--laranja-claro);
 }
 
 .div-conteiner-footer{
@@ -132,11 +132,11 @@ footer{
     justify-content: center;
     gap: 4rem;
     padding: 0.5rem;
-    border-bottom: 0.15rem solid var(--ocre-palido);
+    border-bottom: 0.15rem solid var(--laranja-claro);
 }
 
 .h3-footer{
-    color: var(--verde-acido);
+    color: var(--laranja-escuro);
     font-size: 0.8rem;
     font-family: "Open Sans", sans-serif;
 }
@@ -163,7 +163,7 @@ footer{
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
-    color: var(--verde-acido);
+    color: var(--laranja-escuro);
 }
 
 #whatsapp-logo{
@@ -200,7 +200,7 @@ footer{
     display: flex;
     font-size: 3rem;
     color: var(--preto);
-    -webkit-text-stroke: 0.5rem var(--verde-acido);
+    -webkit-text-stroke: 0.5rem var(--laranja-escuro);
     paint-order: stroke fill;
     margin-bottom: 4rem;
 }
@@ -239,7 +239,7 @@ footer{
 
 table{
     width: 100%;
-    border: solid 0.2rem var(--verde-acido);
+    border: solid 0.2rem var(--laranja-escuro);
     text-align: center;
 }
 
@@ -247,7 +247,7 @@ table th{
     font-size: 0.8rem;
     color: var(--preto);
     font-family: "protest revolution", sans-serif;
-    -webkit-text-stroke: 0.2rem var(--verde-acido);
+    -webkit-text-stroke: 0.2rem var(--laranja-escuro);
     paint-order: stroke fill;
 }
 
@@ -262,7 +262,7 @@ th, td{
     text-align: center;
     vertical-align: middle;
     padding: 0.5rem;
-    border: solid 0.1rem var(--verde-acido);
+    border: solid 0.1rem var(--laranja-escuro);
 }
 
 .div-lore{
@@ -271,7 +271,7 @@ th, td{
     margin-right: 0.8rem;
     border-radius: 0.8rem;
     padding: 1rem;
-     box-shadow: 0rem 0rem 2rem var(--ocre-palido);
+     box-shadow: 0rem 0rem 2rem var(--laranja-claro);
      margin-bottom: 4rem;
 }
 
@@ -281,7 +281,7 @@ th, td{
     font-size: 1.5rem;
     color: var(--preto-escuro);
     font-family: "protest revolution", sans-serif;
-    -webkit-text-stroke: 0.3rem var(--verde-acido);
+    -webkit-text-stroke: 0.3rem var(--laranja-escuro);
     paint-order: stroke fill;
     margin-bottom: 2rem;
 }
@@ -293,7 +293,7 @@ th, td{
     margin-left: 0.8rem;
     margin-right: 0.8rem;
     font-family: inter, sans-serif;
-    color: var(--ocre-palido);
+    color: var(--laranja-claro);
     -webkit-text-stroke: 0.3rem var(--preto-escuro);
     paint-order: stroke fill;
 }
