@@ -212,7 +212,7 @@ footer{
     color: var(--branco);
     -webkit-text-stroke: 0.2rem var(--preto);
     paint-order: stroke fill;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .div-img-quiz{
@@ -236,6 +236,8 @@ footer{
     width: 15rem;
 }
 
-
+.div-segundo-quiz{
+    margin-bottom: 4rem;
+}
 
 
