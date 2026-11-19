@@ -19,3 +19,23 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 }); //pego pelo BulmaCSS
+
+document.addEventListener('click', (e) => {
+  // Abre o modal se o elemento clicado tiver data-open-modal
+  const openBtn = e.target.closest('[data-open-modal]');
+  if (openBtn) {
+    document.getElementById(openBtn.dataset.openModal)?.classList.add('is-active');
+  }
+
+  // Fecha o modal pai se clicar em qualquer elemento com data-close-modal
+  if (e.target.closest('[data-close-modal]')) {
+    e.target.closest('.modal')?.classList.remove('is-active');
+  }
+});
+
+// Fecha qualquer modal aberto com ESC
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    document.querySelector('.modal.is-active')?.classList.remove('is-active');
+  }
+}); //pego pela IA
