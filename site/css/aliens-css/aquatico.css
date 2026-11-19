@@ -1,0 +1,302 @@
+:root {
+    --branco: #FBFBFD;
+    --preto: #222;
+    --cinza-esverdeado: #8A9989;
+    --cinza-claro: #B7C4B6;
+    --preto-escuro: #000000;
+    --preto-opaco: rgba(0, 0, 0, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+header {
+    position: sticky;
+    z-index: 1000;
+}
+
+#div-pai-de-todas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.back-geral {
+    background-image: url("../../assets/img/backgrounds/background-aquatico.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-conteiner-header {
+    background-color: var(--preto);
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1rem;
+    border-bottom: 0.15rem solid var(--cinza-claro);
+}
+
+.div-esquerda-header {
+    width: 4rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-direita-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.div-direita-header a {
+    color: var(--cinza-claro);
+}
+
+.logo-img {
+    width: 4rem;
+    height: 3rem;
+}
+
+.div-direita-header {
+    size: 4rem;
+}
+
+.link-verde {
+    color: var(--cinza-esverdeado);
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.1rem solid var(--cinza-claro);
+    border-top: 0.1rem solid var(--cinza-claro);
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.link-branco {
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--cinza-claro);
+    border-top: 0.1rem solid var(--cinza-claro);
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    position: relative;
+}
+
+#navbarBasicExample {
+    position: absolute;
+    top: 100%;
+    background-color: var(--preto);
+    border: 0.15rem solid var(--cinza-claro);
+    ;
+}
+
+footer {
+    background-color: var(--preto);
+    border-top: 0.15rem solid var(--cinza-claro);
+}
+
+.div-conteiner-footer {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 0.5rem;
+    border-bottom: 0.15rem solid var(--cinza-claro);
+}
+
+.h3-footer {
+    color: var(--cinza-esverdeado);
+    font-size: 0.8rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.li-footer {
+    color: var(--branco);
+}
+
+.li-footer,
+a {
+    color: var(--branco);
+    font-size: 0.7rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.alinhamento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+#github-logo {
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    color: var(--cinza-esverdeado);
+}
+
+#whatsapp-logo {
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#instagram-logo {
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.feito-por {
+    color: var(--branco);
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 0.625rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.inicio-aquatico {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.inicio-aquatico h1 {
+    font-family: "Protest Revolution", sans-serif;
+    justify-content: center;
+    display: flex;
+    font-size: 3rem;
+    color: var(--preto);
+    -webkit-text-stroke: 0.5rem var(--cinza-esverdeado);
+    paint-order: stroke fill;
+    margin-bottom: 4rem;
+}
+
+.inicio-aquatico h2 {
+    font-family: inter, sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    color: var(--branco);
+    -webkit-text-stroke: 0.2rem var(--preto);
+    paint-order: stroke fill;
+    margin-bottom: 4rem;
+}
+
+.div-img-inicial {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.div-img-inicial img {
+    width: 10rem;
+    height: auto;
+}
+
+.div-tabela {
+    background-color: var(--preto-escuro);
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    margin-bottom: 4rem;
+}
+
+table {
+    width: 100%;
+    border: solid 0.2rem var(--cinza-esverdeado);
+    text-align: center;
+}
+
+table th {
+    font-size: 0.8rem;
+    color: var(--preto);
+    font-family: "protest revolution", sans-serif;
+    -webkit-text-stroke: 0.2rem var(--cinza-esverdeado);
+    paint-order: stroke fill;
+}
+
+table td {
+    font-size: 0.6rem;
+    color: var(--branco);
+    font-family: "inter", sans-serif;
+}
+
+th,
+td {
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.5rem;
+    border: solid 0.1rem var(--cinza-esverdeado);
+}
+
+.div-lore {
+    background-color: var(--preto-opaco);
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    box-shadow: 0rem 0rem 2rem var(--cinza-claro);
+    margin-bottom: 4rem;
+}
+
+.raca {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--preto-escuro);
+    font-family: "protest revolution", sans-serif;
+    -webkit-text-stroke: 0.3rem var(--cinza-esverdeado);
+    paint-order: stroke fill;
+    margin-bottom: 2rem;
+}
+
+.lore {
+    display: flex;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    font-family: inter, sans-serif;
+    color: var(--cinza-claro);
+    -webkit-text-stroke: 0.3rem var(--preto-escuro);
+    paint-order: stroke fill;
+}
