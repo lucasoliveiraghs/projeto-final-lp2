@@ -215,8 +215,26 @@ footer{
     margin-bottom: 4rem;
 }
 
+.div-img-quiz{
+    display: flex;
+    justify-content: center;
+}
 
+.img-quiz{
+    width: 20rem;
+    height: 15rem;
+}
 
+.div-botao{
+    display: flex;
+    justify-content: center;
+}
+
+.button.is-primary{
+    background-color: var(--verde-medio);
+    border-radius: 20px;
+    width: 15rem;
+}
 
 
 
