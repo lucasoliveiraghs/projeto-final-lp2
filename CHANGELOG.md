@@ -8,7 +8,7 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-12 | Lucas G. Oliveira | HTML e CSS | `index.html` | Estrutura inicial da página principal e ajuste do Omnitrix. |
+| 2026-11-12 | Lucas G. Oliveira | HTML e CSS | `index.html ` `index.css` | Estrutura inicial da página principal e ajuste do Omnitrix. |
 | 2026-11-12 | Pedro Almeida | HTML e CSS| `site/html/questionario.html` | Página inicial do questionário. |
 
 ## v0.2 – Páginas de personagens, alienigenas e créditos (2026-11-16)
@@ -37,3 +37,4 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 |---|---|---|---|---|
 | 2026-11-19 | Lucas G. Oliveira | HTML | `site/html/` | Reorganização das páginas HTML e atualização dos links de navegação. |
 | 2026-11-19 | Lucas G. Oliveira | HTML | `site/html/html-aliens/` | Organização dos arquivos das páginas de alienígenas em um diretório específico. |
+| 2026-11-19 | Pedro Almeida | HTML | `site/html//` | Criação das páginas de personagens específicos |
