@@ -35,6 +35,10 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-19 | Lucas G. Oliveira | HTML | `site/html/` | Reorganização das páginas HTML e atualização dos links de navegação. |
-| 2026-11-19 | Lucas G. Oliveira | HTML | `site/html/html-aliens/` | Organização dos arquivos das páginas de alienígenas em um diretório específico. |
+| 2026-11-19 | Lucas G. Oliveira | HTML e CSS | `site/html/` `site/css` | Reorganização das páginas HTML e CSS atualização dos links de navegação. |
+| 2026-11-19 | Lucas G. Oliveira | HTML e CSS | `site/html/html-aliens/` `site/css/aliens-css` | Organização dos arquivos das páginas de alienígenas em um diretório específico. |
+| 2026-11-19 | Lucas G. Oliveira | HTML e CSS | `site/html/quiz` `site/css/quiz` | Confecção da página de quiz. |
 | 2026-11-19 | Pedro Almeida | HTML | `site/html//` | Criação das páginas de personagens específicos |
+
+
+
