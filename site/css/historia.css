@@ -147,11 +147,14 @@ footer{
 /*Personagens*/
 
 .section-historia{
-    background-image: url("../assets/img/backgrounds/Background.svg");
+    background-image: url("../assets/img/backgrounds/Background-vertical.svg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 12rem;
+    padding-top: 11rem;
 }
 
 .subtitle{
@@ -192,8 +195,11 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1rem;
     border: solid 0.3rem var(--preto);
+    width: 22rem;
+    margin-bottom: 0.9rem;
+    padding: 0.3rem;
+    padding-bottom: 1rem;
 }
 
 .textotemp{
