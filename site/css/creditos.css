@@ -189,7 +189,9 @@ header{
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+
 }
 
 .titulo-personagens{
@@ -216,22 +218,25 @@ header{
 
 .autor{
     display: flex;
-     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    padding: 1.5rem;
-
+    flex-direction: row;
+    border: solid 0.3rem var(--preto);
+    width: 25rem;
+    margin: 6rem;
+    padding: 0.6rem;
+    padding-bottom: 1rem;
+    border-radius: 1.4rem;
 }
 
 .autorimg{
-    padding: 1.5rem;
-    height: 8rem;
+    padding: 1.8rem;
+    height: 10rem;
     width: auto;
-
 }
 
 .textoautor{
     text-align: justify;
     color: var(--branco);
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
