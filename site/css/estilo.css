@@ -229,11 +229,32 @@ footer{
 .img-omnitrix{
     display: flex;
     justify-content: center;
+    position: relative;
+    width: 13rem;
+    height: 13rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.img-omnitrix img{
-    width: 13rem;
-    height: auto;
+.img-omnitrix-interativo{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.img-omnitrix-centro{
+    position: absolute;
+    inset: 0;
+    width: 50%;
+    height: 50%;
+    top: 21%;
+    left: 24%;
+
+    z-index: 2;
+    pointer-events: none;
 }
 
 .omnitrix{
@@ -244,6 +265,55 @@ footer{
     display: none;
 }
 
+.luz-omnitrix{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -3rem;
+    opacity: 60%;
+    z-index: -1000;
+    visibility: hidden;
+}
 
+.sem-swiper {
+    display: none;
+  }
 
+  .mobile-swiper {
+    display: block;
+    visibility: hidden;
+  }
 
+  .swiper {
+    width: 10rem;
+    margin-bottom: -14rem;
+    box-sizing: border-box;
+}
+
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .alinhamento-swiper {
+    display: flex;
+    align-items: flex-start;
+  }
+
+.alien-section{
+    display: block;
+    height: 11rem;
+    width: auto;
+    margin-bottom: 3rem;
+}
+
+.alien-section-4bracos{
+    margin-left: 1rem;
+}
+
+.alien-section-xlr8{
+    margin-left: 1.9rem;
+}
