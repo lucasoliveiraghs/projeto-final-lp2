@@ -39,3 +39,63 @@ document.addEventListener('keydown', (e) => {
     document.querySelector('.modal.is-active')?.classList.remove('is-active');
   }
 }); //pego pela IA
+
+const botaoOmnitrix = document.getElementById('omnitrix-botao');
+const luzOmnitrix = document.getElementById('luz-omnitrix-botao');
+const alienOmnitrix = document.querySelector('.alien-section').closest('.mobile-swiper');
+
+botaoOmnitrix.addEventListener('click', () => {
+  if(luzOmnitrix.style.visibility && alienOmnitrix.style.visibility === 'visible'){
+    luzOmnitrix.style.visibility = 'hidden';
+    alienOmnitrix.style.visibility = 'hidden';
+  }else{
+    luzOmnitrix.style.visibility = 'visible';
+    alienOmnitrix.style.visibility = 'visible';
+  }
+});
+
+ var swiper = new Swiper('.mySwiper', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true
+});
+
+const giro = document.querySelector('.img-omnitrix-centro');
+let rotacao = 0;
+
+giro.style.transition = 'transform 0.3s ease';
+
+swiper.on('slidePrevTransitionStart', () => {
+  rotacao += 90;
+  giro.style.transform = `rotate(${rotacao}deg)`;
+});
+
+swiper.on('slideNextTransitionStart', () => {
+  rotacao -= 90;
+  giro.style.transform = `rotate(${rotacao}deg)`;
+}); //pego pela IA
+
+const botaoMenu = document.getElementById("menu-mobile");
+const menu = document.querySelector(".conteudo-direita-nav");
+const links = document.querySelectorAll("#links-nav a");
+
+botaoMenu.addEventListener("click", () => {
+    const aberto = menu.classList.toggle("aberto");
+
+    botaoMenu.classList.toggle("ativo", aberto);
+    botaoMenu.setAttribute("aria-expanded", aberto);
+    botaoMenu.setAttribute(
+        "aria-label",
+        aberto ? "Fechar menu" : "Abrir menu"
+    );
+});
+
+links.forEach((link) => {
+    link.addEventListener("click", () => {
+        menu.classList.remove("aberto");
+        botaoMenu.classList.remove("ativo");
+        botaoMenu.setAttribute("aria-expanded", "false");
+        botaoMenu.setAttribute("aria-label", "Abrir menu");
+    });
+}); //pego pelo modelo do site cinquentinha
+
