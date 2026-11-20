@@ -35,8 +35,15 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-19 | Lucas G. Oliveira | HTML e CSS | `site/html/quiz` `site/css/quiz` | Confecção da página de quiz. |
+| 2026-11-19 | Lucas G. Oliveira | HTML e CSS | `site/html/quiz` , `site/css/quiz` | Confecção da página de quiz. |
 | 2026-11-19 | Pedro Almeida | HTML | `site/html//` | Criação das páginas de personagens específicos |
+
+## v0.6 – Página principal (2026-11-20)
+
+| Data | Integrante | Tipo | Arquivo(s) | Descrição |
+|---|---|---|---|---|
+| 2026-11-20 | Lucas G. Oliveira | HTML , CSS e JS | `index` , `site/css/estilo` , `site/js/main` | Confecção da interatividade com o omnitrix da página index. |
+
 
 
 
