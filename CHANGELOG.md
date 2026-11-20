@@ -31,12 +31,10 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 |---|---|---|---|---|
 | 2026-11-18 | Lucas G. Oliveira | HTML e CSS | `site/html/alienX.html`, `site/html/aquatico.html`, `site/html/fantasmatico.html`, `site/html/besta.html` | Criação das páginas de Alien X, Aquático, Fantasmático e Besta. |
 
-## v0.5 – Reestruturação das páginas HTML (2026-11-19)
+## v0.5 – Páginas de heróis, vilões e quiz (2026-11-19)
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-19 | Lucas G. Oliveira | HTML e CSS | `site/html/` `site/css` | Reorganização das páginas HTML e CSS atualização dos links de navegação. |
-| 2026-11-19 | Lucas G. Oliveira | HTML e CSS | `site/html/html-aliens/` `site/css/aliens-css` | Organização dos arquivos das páginas de alienígenas em um diretório específico. |
 | 2026-11-19 | Lucas G. Oliveira | HTML e CSS | `site/html/quiz` `site/css/quiz` | Confecção da página de quiz. |
 | 2026-11-19 | Pedro Almeida | HTML | `site/html//` | Criação das páginas de personagens específicos |
 
