@@ -8,7 +8,7 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-12 | Lucas G. Oliveira | HTML e CSS | `index.html ` `index.css` | Estrutura inicial da página principal e ajuste do Omnitrix. |
+| 2026-11-12 | Lucas G. Oliveira | HTML e CSS | `index.html ` `index.css` | Estrutura inicial da página principal e ajuste do Omnitrix além da criação de footer e header mobile. |
 | 2026-11-12 | Pedro Almeida | HTML e CSS| `site/html/questionario.html` | Página inicial do questionário. |
 
 ## v0.2 – Páginas de personagens, alienigenas e créditos (2026-11-16)
@@ -29,13 +29,13 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-18 | Lucas G. Oliveira | HTML e CSS | `site/html/alienX.html`, `site/html/aquatico.html`, `site/html/fantasmatico.html`, `site/html/besta.html` | Criação das páginas de Alien X, Aquático, Fantasmático e Besta. |
+| 2026-11-18 | Lucas G. Oliveira | HTML e CSS | `site/html/ben100.html`, `site/html/aquatico.html`, `site/html/fantasmatico.html`, `site/html/besta.html` | Criação das páginas de ben100, Aquático, Fantasmático e Besta. |
 
 ## v0.5 – Páginas de heróis, vilões e quiz (2026-11-19)
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-19 | Lucas G. Oliveira | HTML e CSS | `site/html/quiz` , `site/css/quiz` | Confecção da página de quiz. |
+| 2026-11-19 | Lucas G. Oliveira | HTML e CSS | `site/html/quiz` , `site/css/quiz` | Confecção da página de quiz no mobile. |
 | 2026-11-19 | Pedro Almeida | HTML | `site/html//` | Criação das páginas de personagens específicos |
 
 ## v0.6 – Página principal (2026-11-20)
@@ -43,6 +43,12 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
 | 2026-11-20 | Lucas G. Oliveira | HTML , CSS e JS | `index` , `site/css/estilo` , `site/js/main` | Confecção da interatividade com o omnitrix da página index. |
+
+## v0.7 – Página principal (2026-11-21)
+
+| Data | Integrante | Tipo | Arquivo(s) | Descrição |
+|---|---|---|---|---|
+| 2026-11-21 | Lucas G. Oliveira | HTML e CSS | `index` , `site/css/estilo` , `site/html/html-aliens` , `site/css/aliens-css` | Confecção do header e footer na media query (1024 e 1440) e corpo das páginas de aliens nas mesmas medias querys (1024 e 1440). |
 
 
 
