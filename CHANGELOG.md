@@ -50,6 +50,11 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 |---|---|---|---|---|
 | 2026-11-21 | Lucas G. Oliveira | HTML e CSS | `index` , `site/css/estilo` , `site/html/html-aliens` , `site/css/aliens-css` | Confecção do header e footer na media query (1024 e 1440) e corpo das páginas de aliens nas mesmas medias querys (1024 e 1440). |
 
+## v0.8 – Página principal (2026-11-22)
 
+| Data | Integrante | Tipo | Arquivo(s) | Descrição |
+|---|---|---|---|---|
+| 2026-11-22 | Lucas G. Oliveira | HTML , CSS e JS | `index` , `site/css/estilo` , `site/js/main` | confecção do omnitrix interativo em telas de 1024px e 1440px, além do resto da página. |
+| 2026-11-22 | Lucas G. Oliveira | HTML e CSS | `site/html/quiz` , `site/css/quiz` | Confecção da página de quiz na tela de 1024px e 1440px. |
 
 
