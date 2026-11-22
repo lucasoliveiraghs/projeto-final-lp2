@@ -125,11 +125,11 @@ footer{
     justify-content: center;
     gap: 4rem;
     padding: 0.5rem;
+    border-bottom: 0.15rem solid var(--branco);
 }
 
 header{
     position: sticky;
-    top: 0;
     z-index: 1000;
 }
 
@@ -182,7 +182,6 @@ header{
     justify-content: center;
     font-size: 0.625rem;
     font-family: "Open Sans", sans-serif;
-    border-top: 0.15rem solid var(--branco);
 }
 .main-title{
     display: flex;
@@ -197,13 +196,13 @@ header{
     text-align: center;
 }
 
-.section-personagens{
-    background-image: url("../assets/img/backgrounds/Background.svg");
+.section-personagemesp{
+    background-image: url("../assets/img/backgrounds/Background-vertical.svg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    padding-top: 3rem;
-    padding-bottom: 8rem;
+    padding-top: 12rem;
+    padding-bottom: 14rem;
 }
 
 .subtitle{
@@ -218,30 +217,25 @@ header{
     paint-order: stroke fill;
 }
 
-.herois{
+.personagemesp{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-}
-
-.viloes{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
-.grupo-h{
-    width: 10rem;
-    height: 13rem;
-    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
+.personagemesp-img{
+    width: 8rem;
+    height: auto;
+    margin-bottom: 2rem;
+    border: solid 0.2rem var(--preto);
+    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.55));
 }
 
-.grupo-v{
-    width: 10rem;
-    height: 13rem;
-    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
+.desc{
+    color: var(--branco);
+    text-align: justify;
+    width: 16rem;
 }
 
 .ben10-footer,
@@ -275,55 +269,25 @@ header{
 }
 
 @media (min-width: 1440px){
-    .grupo-h{
+    .personagemesp-img{
         width: 20rem;
-        height: 26rem;
-        filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
-        transition: filter 0.3s ease, transform 0.3s ease;
-    }
-    .grupo-v{
-        width: 20rem;
-        height: 26rem;
-        filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
-        transition: filter 0.3s ease, transform 0.3s ease;
-    }
-    .grupo-h:hover{
-        filter: drop-shadow(0 0 0.9rem rgba(0, 0, 0, 0.8));
-        transform: scale(1.1);
-    }
-    .grupo-v:hover{
-        filter: drop-shadow(0 0 0.9rem rgba(0, 0, 0, 0.8));
-        transform: scale(1.1);
-    }
-    .div-selecao{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        border: solid 0.5rem var(--preto);
     }
     .main-title{
         display: flex;
         justify-content: center;
-        font-size: 5.6rem;
+        font-size: 8rem;
         color: var(--preto);
         font-family: "Protest Revolution", sans-serif;
         font-weight: 400; 
         padding: 5rem;
+        padding-top: 10rem;
         -webkit-text-stroke: 0.8rem var(--verde-medio);
         paint-order: stroke fill;
     }
-    .subtitle{
-        display: flex;
-        justify-content: center;
-        font-size: 3.5rem;
-        color: var(--preto);
-        font-family: "Protest Revolution", sans-serif;
-        font-weight: 400; 
-        padding: 1rem;
-        padding-top: 3rem;
-        -webkit-text-stroke: 0.6rem var(--verde-medio);
-        paint-order: stroke fill;
-    }
-    .herois{
-        padding-right: 15rem;
+    .desc{
+        padding-top: 2rem;
+        width: 50rem;
+        font-size: 1.5rem;
     }
 }
