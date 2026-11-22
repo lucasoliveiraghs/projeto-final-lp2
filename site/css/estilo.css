@@ -59,7 +59,7 @@ header{
     justify-content: center;
     gap: 4rem;
     padding: 1rem;
-    border-bottom: 0.15rem solid var(--verde-medio);
+    border-bottom: 0.15rem solid var(--branco);
 }
 
 .div-esquerda-header{
@@ -211,8 +211,6 @@ footer{
     font-size: 1.25rem;
     margin-top: 3rem;
     color: var(--branco);
-    -webkit-text-stroke: 0.2rem var(--preto);
-    paint-order: stroke fill;
     margin-bottom: 4rem;
 }
 
@@ -273,8 +271,8 @@ footer{
 .luz-omnitrix{
     display: flex;
     justify-content: center;
-    margin-bottom: -3rem;
-    opacity: 60%;
+    margin-bottom: -5.6rem;
+    opacity: 100%;
     z-index: -1000;
     visibility: hidden;
 }
@@ -290,8 +288,21 @@ footer{
 
   .swiper {
     width: 10rem;
-    margin-bottom: -14rem;
+    margin-bottom: -10rem;
     box-sizing: border-box;
+}
+
+.mySwiper {
+    --swiper-navigation-color: var(--branco);
+    --swiper-navigation-size: 1.25rem;
+    --swiper-navigation-sides-offset: 0.75rem;
+}
+
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+    padding: 0;
+    border: 0;
+    background: transparent;
 }
 
   .swiper-slide {
@@ -310,9 +321,8 @@ footer{
 
 .alien-section{
     display: block;
-    height: 11rem;
+    height: 9rem;
     width: auto;
-    margin-bottom: 3rem;
 }
 
 .alien-section-4bracos{
@@ -321,6 +331,10 @@ footer{
 
 .alien-section-xlr8{
     margin-left: 1.9rem;
+}
+
+.div-todo-omnitrix{
+    margin-top: -15rem;
 }
 
 @media (min-width: 1024px) {
@@ -348,14 +362,12 @@ footer{
         margin-top: 2rem;
     }
 
-
 .div-conteiner-header{
     background-color: var(--preto);
     display: flex;
     justify-content: space-evenly;
     gap: 4rem;
     padding: 1rem;
-    border-bottom: 0.15rem solid var(--verde-medio);
 }
 
 .div-esquerda-header{
@@ -419,6 +431,62 @@ nav{
     background: none;
 }
 
+
+.luz-omnitrix{
+    margin-bottom: -19rem;
+    margin-top: 10rem;
+    height: 70%;
+    width: 80%;
+    margin-left: 6.4rem;
+
+}
+
+  .swiper {
+    width: 30rem;
+    margin-bottom: -30rem;
+}
+
+.mySwiper {
+    --swiper-navigation-size: 2rem;
+}
+
+.swiper-slide{
+    transition: opacity 0.3s ease;
+}
+
+.swiper-slide-prev, .swiper-slide-next{
+    opacity: 0.4;
+}
+
+.swiper-slide-active {
+    opacity: 1;
+}
+
+.alien-section{
+    display: block;
+    height: 14rem;
+    width: auto;
+    margin-bottom: 2rem;
+}
+
+.div-todo-omnitrix{
+    margin-top: -28rem;
+}
+
+.ben-vindo h1{
+    font-size: 4rem;
+    -webkit-text-stroke: 0.6rem var(--verde-medio);
+}
+
+.ben-vindo h2{
+    font-size: 1.5rem;
+    -webkit-text-stroke: 0 var(--preto);
+}
+
+.logo-grande img{
+    width: 15rem;
+    height: 15rem;
+}
 }
 
 @media (min-width: 1440px) {
@@ -451,4 +519,61 @@ nav{
         padding: 0.75rem 1rem;
         font-size: 1.35rem;
     }
+
+    
+.luz-omnitrix{
+    margin-bottom: -19rem;
+    margin-top: 20rem;
+    height: 70%;
+    width: 80%;
+    margin-left: 9rem;
+
+}
+
+  .swiper {
+    width: 50rem;
+    margin-bottom: -44rem;
+}
+
+.mySwiper {
+    --swiper-navigation-size: 3rem;
+}
+
+
+.swiper-slide{
+    transition: opacity 0.3s ease;
+}
+
+.swiper-slide-prev, .swiper-slide-next{
+    opacity: 0.4;
+}
+
+.swiper-slide-active {
+    opacity: 1;
+}
+
+.alien-section{
+    display: block;
+    height: 18rem;
+    width: auto;
+}
+
+.div-todo-omnitrix{
+    margin-top: -50rem;
+}
+
+.ben-vindo h1{
+    font-size: 5rem;
+    -webkit-text-stroke: 0.8rem var(--verde-medio);
+}
+
+.ben-vindo h2{
+    font-size: 2rem;
+    -webkit-text-stroke: 0 var(--preto);
+}
+
+.logo-grande img{
+    width: 20rem;
+    height: 20rem;
+}
 }
