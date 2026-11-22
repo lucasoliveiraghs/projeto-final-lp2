@@ -186,6 +186,7 @@ footer{
 .img-personagem{
     height: 10rem;
     width: auto;
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
 }
 
 .ben10-footer,
@@ -216,4 +217,53 @@ footer{
     .div-esquerda-header .img-logo { width: 5.5rem; height: 5.5rem; }
     .navbar-start { gap: 0.5rem; }
     .link-verde, .link-branco { padding: 0.75rem 1rem; font-size: 1.35rem; }
+}
+
+@media (min-width: 1440px) {
+    .main-title{
+        display: flex;
+        justify-content: center;
+        font-size: 7rem;
+        color: var(--preto);
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400; 
+        padding: 5rem;
+        -webkit-text-stroke: 0.8rem var(--verde-medio);
+        paint-order: stroke fill;
+    }
+    .personagens{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8rem;
+    }
+    .img-personagem{
+        height: 17rem;
+        width: auto;
+    }
+    .img-personagem:hover{
+        filter: drop-shadow(0 0 0.9rem rgba(0, 0, 0, 0.8));
+        transform: scale(1.1);
+        transition: filter 0.3s ease, transform 0.3s ease;
+    }
+    .personagem1{
+        padding: 3rem;
+    }
+    .personagem2{
+        padding: 3rem;
+    }
+    .personagem3{
+        padding: 3rem;
+    }
+    .titulo-personagens{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-size: 3rem;
+        font-style: normal;
+        color: var(--branco);
+        padding: 0.8rem;
+        display: flex;
+        justify-content: center;
+    }
 }
