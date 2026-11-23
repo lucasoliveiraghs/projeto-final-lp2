@@ -1,9 +1,9 @@
 ---
 titulo: Uso de IA no projeto
 descricao: Registro de todas as conversas com chatbot usadas no projeto, com data, etapa e finalidade.
-autores: Nome Sobrenome, Nome Sobrenome
+autores: Thiago Henrique, Lucas Gabriel, Pedro Almeida
 versao: v1.0
-ultima_atualizacao: 2026-11-30
+ultima_atualizacao: 2026-11-23
 arquivos_relacionados: docs/04-versoes/ site/css/style.css
 ---
 
