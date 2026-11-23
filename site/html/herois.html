@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../css/heroivilao.css">
     <script src="../js/ordenar-personagens.js" defer></script>
-    <script src="../js/textodrop.js" defer></script>
+    <script src="../js/descricao-personagens.js" defer></script>
     <script src="../js/main.js" defer></script>
     <title>Ben 10 | Heróis</title>
 </head>
@@ -78,27 +78,32 @@
         <div class="select is-rounded seletor-personagens">
                             
                             <select id="ordenador">
-                                <option value="posicao">Ordem padrão</option>
-                                <option value="nome">Nome (A-Z)</option>
+                                <option value="posicao">Organização padrão</option>
+                                <option value="nome">Nome</option>
                             </select>
                         </div>
 
         <div class="personagens">
             <div class="personagem2">
                 <h2 class="titulo-personagens">Gwen</h2>
-                <img class="img-personagem" src="../assets/img/personagens/gwen.svg" alt="gwen">
-                <p class="desc">Gwen Tennyson é a prima de 10 anos de Ben. Muito inteligente, sarcástica e a "voz da razão" do grupo, passa a maior parte do tempo brigando com Ben. Ao longo do verão, ela descobre um livro de feitiços e começa a praticar magia de forma autodidata para ajudar nas batalhas.</p>
+                <button class="botao-imagem-personagem" type="button" aria-expanded="false" aria-controls="descricao-gwen">
+                    <img class="img-personagem" src="../assets/img/personagens/gwen.svg" alt="Gwen">
+                </button>
+                <p class="desc" id="descricao-gwen">Na série clássica de Ben 10, Gwen Tennyson é a prima inteligente, organizada e sarcástica de Ben, também com 10 anos de idade, que acompanha ele e o avô Max na viagem de trailer pelo país. No início das férias, ela frequentemente bate de frente com Ben por causa da imaturidade e irresponsabilidade dele, agindo como a voz da razão que planeja cada passo e pesquisa soluções usando seu computador portátil. Com o passar da jornada, Gwen deixa de ser apenas uma observadora e começa a ajudar diretamente nas batalhas usando artes marciais e raciocínio rápido, até descobrir que possui uma afinidade natural com a magia após entrar em contato com os talismãs de Encantriz e encontrar um livro de feitiços. Ao longo do verão, ela desenvolve poderes místicos de energia e projéteis arcanos, superando as brigas constantes com o primo para formar uma parceria leal e indispensável na luta contra o mal.</p>
             </div>
             <div class="personagem3">
                 <h2 class="titulo-personagens">Vô Max</h2>
-                <img class="img-personagem" src="../assets/img/personagens/voMax.svg" alt="vo max">
-                <p class="desc">Vô Max é o avô carinhoso de Ben e Gwen, que os leva em uma viagem de férias pelo país a bordo de seu trailer, a Lata Velha. Apesar da aparência pacata e do gosto por comidas estranhas, esconde o passado de ter sido um "Encanador" — um agente de uma organização secreta que combatia ameaças alienígenas na Terra.</p>
+                <button class="botao-imagem-personagem" type="button" aria-expanded="false" aria-controls="descricao-vo-max">
+                    <img class="img-personagem" src="../assets/img/personagens/voMax.svg" alt="Vô Max">
+                </button>
+                <p class="desc" id="descricao-vo-max">Na série clássica de Ben 10, o avô Max Tennyson é o patriarca calmo, protetor e excêntrico que guia Ben e Gwen durante a viagem de verão em seu trailer modificado, a Lata Velha. A princípio, ele aparenta ser apenas um senhor aposentado comum com gostos culinários exóticos e histórias antigas, mantendo em segredo sua verdadeira identidade para proteger os netos. Conforme as ameaças alienígenas se intensificam, revela-se que Max foi um dos melhores agentes dos Encanadores, uma organização secreta dedicada a defender a Terra de invasores extraterrestres, e que já havia enfrentado e derrotado Vilgax no passado. Assumindo o papel de mentor e estrategista do grupo, ele utiliza seu vasto conhecimento espacial, habilidades de combate e armamentos ocultos no trailer para treinar Ben e Gwen e ajudá-los a sobreviver aos perigos da jornada.</p>
             </div>
             <div class="personagem1">
                 <h2 class="titulo-personagens">Ben 10</h2>
-                <img id="img-ben" class="img-personagem" src="../assets/img/personagens/ben10.svg" alt="ben 10">
-                <p class="desc">Ben Tennyson é Um garoto de 10 anos imaturo, impulsivo e brincalhão que encontra o Omnitrix, um relógio alienígena que permite se transformar em 10 alienígenas diferentes. Embora use os poderes muitas vezes para pregar peças ou se exibir, tem um forte senso de justiça e protege as pessoas quando é necessário.</p>
-                </div>
+                <button class="botao-imagem-personagem" type="button" aria-expanded="false" aria-controls="descricao-ben">
+                    <img id="img-ben" class="img-personagem" src="../assets/img/personagens/ben10.svg" alt="Ben 10">
+                </button>
+                <p class="desc" id="descricao-ben">Na série clássica de Ben 10, Ben Tennyson é um garoto imaturo e travesso de 10 anos que, durante as férias de verão em uma viagem de trailer pelo país com sua prima Gwen e seu avô Max, encontra o Omnitrix — um dispositivo alienígena em forma de relógio que cai do espaço. O relógio se fixa em seu pulso e concede a ele a habilidade de se transformar em 10 alienígenas diferentes, cada um com poderes únicos. Inicialmente, Ben usa as transformações de forma egoísta, para se exibir, pregar peças e facilitar sua vida de criança, mas rapidamente percebe a responsabilidade que carrega ao enfrentar ameaças alienígenas, vilões mutantes e cientistas loucos. Ao longo da jornada, amadurece gradualmente, aprendendo a trabalhar em equipe com Gwen e Max — descobrindo também que seu avô possui um passado secreto como caçador de alienígenas —, e usa sua criatividade e improviso com os poderes do relógio para derrotar inimigos mortais como Kevin 11 e o conquistador galáctico Vilgax, tornando-se um verdadeiro herói.</p>
             </div>
         </div>
     </section>
@@ -115,6 +120,7 @@
                     <li class="li-footer"><a href="../html/quiz.html" class="a-footer">Quiz</a></li>
                     <li class="li-footer"><a href="../html/questionario.html" class="a-footer">Questionário</a></li>
                     <li class="li-footer"><a href="../html/creditos.html" class="a-footer">Créditos</a></li>
+                </ul>
             </div>
 
             <div class="div-direita-footer">
