@@ -205,15 +205,12 @@ a {
     background-position: center top;
     background-repeat: no-repeat;
     padding-bottom: 3rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
 }
 
 .div-selecao {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
     padding: 0 1rem;
