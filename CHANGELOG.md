@@ -59,7 +59,11 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 | 2026-11-22 | Pedro Almeida  | HTML e CSS | `site/css/questionario.css`, `site/css/historia.css`, `site/css/heroivilao.css`, `site/css/personagens.css` , `site/css/personagemesp.css` | Confecção das páginas de questionário, personagens, personagens específicos, história, heróis e vilões na tela de 1440px. |
 | 2026-11-22 | Thiago Henrique| HTML e CSS | `site/css/creditos.css` | Confecção da página de créditos na tela de 1440px. |
 
+## v0.9 – Página principal (2026-11-23)
 
+| Data | Integrante | Tipo | Arquivo(s) | Descrição |
+|---|---|---|---|---|
+| 2026-11-23 | Lucas G. Oliveira | HTML , CSS e JS | `site/html/html` , `site/css/` , `site/js` | Confecção de um botão seletor na página de personagens (heroi e vilão), acréscimo de detalhes na disposição e layout e correção de erros de lógica e layout. |
 
 
 
