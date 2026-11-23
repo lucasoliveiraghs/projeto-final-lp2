@@ -8,6 +8,7 @@ Preto: #222222 Verde-escuro: #328336 Verde: #64CC4F Verde-Claro:#B2E05B Branco: 
 Decidimos criar uma pagina de personagens para acessar as paginas de heróis e de vilões.
 Nas páginas de aliens especificas decidimos mudar as fontes e dos icones e do footer
 Decidimos tirar as barras que separam a logo do conteúdo do header
+Removemos as páginas de personagens específicos e colocamos a página do alien X escondida na página de história
 
 
 # Fontes de ícones e imagens usadas no site
