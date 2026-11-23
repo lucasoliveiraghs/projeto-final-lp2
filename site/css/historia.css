@@ -204,8 +204,6 @@ a {
 }
 
 .temp {
-    background-image: url("../assets/img/backgrounds/background-alienX.svg");
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;

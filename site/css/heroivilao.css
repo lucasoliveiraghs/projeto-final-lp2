@@ -213,6 +213,29 @@
      filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
  }
 
+ .botao-imagem-personagem {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     padding: 0;
+     border: 0;
+     background: transparent;
+     cursor: pointer;
+ }
+
+ .desc {
+     display: none;
+     font-size: 0.9rem;
+     width: 100%;
+     padding: 0.6rem;
+     color: var(--branco);
+     text-align: justify;
+ }
+
+ .desc.visivel {
+     display: block;
+ }
+
  .ben10-footer,
  .luz-ben10-footer {
      display: none;
@@ -335,7 +358,19 @@
      .personagens {
          justify-content: center;
          flex-direction: row;
-         gap: 7rem;
+         align-items: flex-start;
+         gap: 1.5rem;
+     }
+
+     .personagens > div {
+         flex: 1 1 0;
+         min-width: 0;
+     }
+
+     .desc {
+         width: 100%;
+         max-width: none;
+         font-size: 1rem;
      }
  }
 
@@ -362,10 +397,11 @@
 
  .personagens {
      display: flex;
-     justify-content: center;
+     justify-content: flex-start;
      flex-direction: row;
-     align-items: center;
-     gap: 7rem;
+     align-items: flex-start;
+     gap: 1.5rem;
+     padding: 0 5vw;
  }
 
      .img-personagem {
@@ -373,16 +409,10 @@
          width: auto;
      }
 
-     .personagem1 {
-         padding: 3rem;
-     }
-
-     .personagem2 {
-         padding: 3rem;
-     }
-
-     .personagem3 {
-         padding: 3rem;
+     .desc {
+         width: 100%;
+         max-width: none;
+         font-size: 1.8rem;
      }
 
           .ben10-footer {
