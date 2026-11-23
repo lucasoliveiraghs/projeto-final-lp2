@@ -119,3 +119,13 @@ links.forEach((link) => {
     });
 }); //pego pelo modelo do site cinquentinha
 
+const benpers = document.getElementById('img-ben');
+const descben = document.getElementById('desc-ben');
+
+benpers.addEventListener('click', () => {
+  if(descben.style.display === 'none'){
+    descben.style.display = 'flex';
+  }else{
+    descben.style.display = 'none';
+  }
+});
