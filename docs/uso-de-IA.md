@@ -25,9 +25,9 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 
 | Data | Ferramenta | Etapa | Arquivo(s) afetado(s) | Motivo do uso e erro antes do uso | O que foi feito com a resposta | Link ou print |
 |---|---|---|---|---|---|---|
-| 2026-11-05 | Gemini | Estrutura HTML | site/index.html | Dúvida sobre a diferença entre `section` e `div`; a página tinha tudo dentro de `div`, o que dificultava ler a estrutura | Reorganizei o cabeçalho e as seções da página e testei no navegador | prints/ia-01.png |
-| 2026-11-12 | Gemini | Responsividade | site/css/estilo.css | O menu sumia no celular e não sabíamos como adaptar o layout; tentamos ajustar larguras fixas sem sucesso | Entendi o uso de `@media` e escrevi a regra do menu hambúrguer por conta própria | prints/ia-02.png |
-| 2026-11-19 | Gemini | Validação do formulário | site/js/main.js | O envio aceitava campos vazios e e-mail inválido; não tínhamos certeza de como validar em JavaScript | Não usei o trecho sugerido; implementei a validação com `required` no HTML e revisei a lógica com o professor | prints/ia-03.png |
+| 2026-11-05 | Ia mode do google | Estrutura HTML e javascript | site/index.html | Dúvida sobre a diferença entre `section` e `div`; a página tinha tudo dentro de `div`, o que dificultava ler a estrutura | Reorganizei o cabeçalho e as seções da página e testei no navegador | `site/docs/PrintsdepromptsdeTexto/ia1 `, `site/docs/PrintsdepromptsdeTexto/ia2 `, `site/docs/PrintsdepromptsdeTexto/ia3 `, `site/docs/PrintsdepromptsdeTexto/ia4 ` |
+| 2026-11-12 | copilot | Responsividade | site/css/estilo.css | O menu sumia no celular e não sabíamos como adaptar o layout; tentamos ajustar larguras fixas sem sucesso | Entendi o uso de `@media` e escrevi a regra do menu hambúrguer por conta própria | `site/docs/PrintsdepromptsdeTexto/ia4 `, `site/docs/PrintsdepromptsdeTexto/ia5 ` |
+| 2026-11-19 | copilot | Validação do formulário | site/js/main.js | O envio aceitava campos vazios e e-mail inválido; não tínhamos certeza de como validar em JavaScript | Não usei o trecho sugerido; implementei a validação com `required` no HTML e revisei a lógica com o professor | `site/docs/PrintsdepromptsdeTexto/ia7 `, `site/docs/PrintsdepromptsdeTexto/ia8 `, `site/docs/PrintsdepromptsdeTexto/ia9 ` |
 
 
 
