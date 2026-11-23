@@ -1,0 +1,441 @@
+:root {
+    --branco: #FBFBFD;
+    --preto: #222;
+    --verde-medio: #64CC4F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.div-conteiner-header {
+    background-color: var(--preto);
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1rem;
+    border-bottom: 0.15rem solid var(--branco);
+}
+
+.div-esquerda-header {
+    width: 4rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.div-direita-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo-img {
+    width: 4rem;
+    height: 3rem;
+}
+
+.div-direita-header,
+span {
+    size: 4rem;
+}
+
+.link-verde {
+    color: var(--verde-medio);
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.1rem solid var(--branco);
+    border-top: 0.1rem solid var(--branco);
+    align-items: center;
+}
+
+.link-branco {
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--branco);
+    border-top: 0.1rem solid var(--branco);
+}
+
+nav {
+    position: relative;
+}
+
+#navbarBasicExample {
+    position: absolute;
+    top: 100%;
+    background-color: var(--preto);
+    border: 0.15rem solid var(--branco);
+}
+
+footer {
+    background-color: var(--preto);
+    margin-top: 0.1rem;
+    border-top: 0.15rem solid var(--branco);
+}
+
+.div-conteiner-footer {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 0.5rem;
+}
+
+.h3-footer {
+    color: var(--verde-medio);
+    font-size: 0.8rem;
+}
+
+.li-footer {
+    color: var(--branco);
+}
+
+.li-footer,
+a {
+    color: var(--branco);
+    font-size: 0.7rem;
+}
+
+.alinhamento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+#github-logo {
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#whatsapp-logo {
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#instagram-logo {
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.feito-por {
+    color: var(--branco);
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 0.625rem;
+    border-top: 0.15rem solid var(--branco);
+}
+
+/*Personagens*/
+
+.section-historia {
+    background-image: url("../assets/img/backgrounds/Background.svg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.subtitle {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--branco);
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: var(--preto);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    padding: 2rem;
+    -webkit-text-stroke: 0.5rem var(--verde-medio);
+    paint-order: stroke fill;
+}
+
+.h3title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--preto);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+    -webkit-text-stroke: 0.3rem var(--verde-medio);
+    paint-order: stroke fill;
+}
+
+.imgtexto {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgtexto2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 0.3rem var(--preto);
+    width: 18rem;
+    padding: 0.3rem;
+    margin: 1rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.textotemp {
+    width: 16rem;
+    font-size: 0.8rem;
+    text-align: justify;
+    color: var(--branco);
+}
+
+.eptemp {
+    height: 10rem;
+    width: auto;
+    padding: 0.8rem;
+}
+
+.ben10-footer,
+.luz-ben10-footer {
+    display: none;
+}
+
+.h3titlex{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--branco);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+    -webkit-text-stroke: 0.3rem var(--preto);
+    paint-order: stroke fill;
+}
+
+@media (min-width: 1440px) {
+    .div-ben10-footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ben10-footer {
+        display: flex;
+        margin-left: 14rem;
+        height: 16rem;
+        margin-top: 0.5rem;
+    }
+
+    .luz-ben10-footer {
+        display: flex;
+        margin-left: -5.25rem;
+        margin-top: -4rem;
+        height: 20rem;
+    }
+
+    .div-conteiner-footer {
+        margin-left: -24rem;
+        margin-top: 2rem;
+    }
+
+    .div-conteiner-header {
+        background-color: var(--preto);
+        display: flex;
+        justify-content: space-evenly;
+        gap: 4rem;
+        padding: 1rem;
+        border-bottom: 0.15rem solid var(--branco);
+    }
+
+    .div-esquerda-header {
+        width: 6rem;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-direita-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        size: static;
+    }
+
+    .div-direita-header a {
+        color: var(--branco);
+    }
+
+    .logo-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .link-verde {
+        color: var(--verde-medio);
+        display: flex;
+        justify-content: center;
+        border-bottom: none;
+        border-top: none;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .link-branco {
+        color: var(--branco);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: none;
+        border-top: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    nav {
+        position: static;
+        align-self: center;
+    }
+
+    #navbarBasicExample {
+        position: static;
+        border: none;
+        background: none;
+
+    }
+    .ben10-footer {
+        margin-left: 28rem;
+    }
+
+    .div-conteiner-header {
+        gap: 5rem;
+        padding: 1.25rem;
+    }
+
+    .div-esquerda-header {
+        width: 7rem;
+        height: 6rem;
+    }
+
+    .div-esquerda-header .img-logo {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .navbar-start {
+        gap: 0.5rem;
+    }
+
+    .link-verde,
+    .link-branco {
+        padding: 0.75rem 1rem;
+        font-size: 1.35rem;
+    }
+    .main-title {
+        display: flex;
+        justify-content: center;
+        font-size: 8rem;
+        color: var(--preto);
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        padding: 2rem;
+        -webkit-text-stroke: 0.8rem var(--verde-medio);
+        paint-order: stroke fill;
+    }
+
+    .temp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 0.8rem var(--preto);
+        width: 70rem;
+        margin-bottom: 5rem;
+        padding: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .textotemp {
+        width: 40rem;
+        font-size: 1.6rem;
+        padding: 2rem;
+        display: flex;
+        text-align: end;
+        text-align: justify;
+        color: var(--branco);
+    }
+
+    .eptemp {
+        height: 23rem;
+        width: auto;
+        padding: 1rem;
+        padding-top: 1.8rem;
+    }
+
+    .h3title {
+        font-size: 4rem;
+        color: var(--preto);
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        padding: 3rem;
+        -webkit-text-stroke: 0.8rem var(--verde-medio);
+        paint-order: stroke fill;
+    }
+
+    .imgtexto {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .imgtexto2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .h3titlex{
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+        color: var(--branco);
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        padding: 1rem;
+        -webkit-text-stroke: 0.8rem var(--preto);
+        paint-order: stroke fill;
+    }
+}
+
