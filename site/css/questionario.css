@@ -1,53 +1,53 @@
-:root{
+:root {
     --branco: #FBFBFD;
     --preto: #222;
     --verde-medio: #64CC4F;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .protest-revolution-regular {
-  font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
 
 
 .open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
-#div-pai-de-todas{
+#div-pai-de-todas {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.back-geral{
+.back-geral {
     background-image: url("../assets/img/backgrounds/Background.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.div-conteiner-header{
+.div-conteiner-header {
     background-color: var(--preto);
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@
     border-bottom: 0.15rem solid var(--branco);
 }
 
-.div-esquerda-header{
+.div-esquerda-header {
     width: 4rem;
     height: 3rem;
     display: flex;
@@ -64,27 +64,27 @@
     align-items: center;
 }
 
-.div-direita-header{
+.div-direita-header {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-.div-direita-header a{
+.div-direita-header a {
     color: var(--branco);
 }
 
-.logo-img{
+.logo-img {
     width: 4rem;
     height: 3rem;
 }
 
-.div-direita-header{
+.div-direita-header {
     size: 4rem;
 }
 
-.link-verde{
+.link-verde {
     color: var(--verde-medio);
     display: flex;
     justify-content: center;
@@ -94,7 +94,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.link-branco{
+.link-branco {
     color: var(--branco);
     display: flex;
     justify-content: center;
@@ -104,52 +104,53 @@
     font-family: "Open Sans", sans-serif;
 }
 
-nav{
+nav {
     position: relative;
 }
 
-#navbarBasicExample{
+#navbarBasicExample {
     position: absolute;
     top: 100%;
     background-color: var(--preto);
     border: 0.15rem solid var(--branco);
 }
 
-footer{
+footer {
     background-color: var(--preto);
     border-top: 0.15rem solid var(--branco);
 }
 
-.div-conteiner-footer{
+.div-conteiner-footer {
     display: flex;
     justify-content: center;
     gap: 4rem;
     padding: 0.5rem;
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-.h3-footer{
+.h3-footer {
     color: var(--verde-medio);
     font-size: 0.8rem;
     font-family: "Open Sans", sans-serif;
 }
 
-.li-footer{
+.li-footer {
     color: var(--branco);
 }
 
-.li-footer, a{
+.li-footer,
+a {
     color: var(--branco);
     font-size: 0.7rem;
     font-family: "Open Sans", sans-serif;
 }
 
-.alinhamento{
+.alinhamento {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -157,25 +158,25 @@ header{
     margin-bottom: 0.5rem;
 }
 
-#github-logo{
+#github-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-#whatsapp-logo{
+#whatsapp-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-#instagram-logo{
+#instagram-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-.feito-por{
+.feito-por {
     color: var(--branco);
     padding: 0.1rem;
     display: flex;
@@ -184,18 +185,20 @@ header{
     font-family: "Open Sans", sans-serif;
     border-top: 0.15rem solid var(--branco);
 }
-.main-title{
+
+.main-title {
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
     color: var(--preto);
     font-family: "Protest Revolution", sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
     padding: 3rem;
     -webkit-text-stroke: 0.5rem var(--verde-medio);
     paint-order: stroke fill;
 }
-.section-questionario{
+
+.section-questionario {
     background-image: url("../assets/img/backgrounds/Background.svg");
     background-size: cover;
     background-position: center top;
@@ -204,30 +207,30 @@ header{
     padding-bottom: 8rem;
 }
 
-.subtitle{
+.subtitle {
     display: flex;
     justify-content: center;
     font-size: 1rem;
     color: var(--preto);
     font-family: "Protest Revolution", sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
     padding: 1rem;
     -webkit-text-stroke: 0.3rem var(--verde-medio);
     paint-order: stroke fill;
 }
 
-.input{
+.input {
     width: 15.4rem;
 }
 
-.formulario{
+.formulario {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.textarea{
+.textarea {
     width: 15.4rem;
     color: var(--branco);
 }
@@ -238,75 +241,199 @@ header{
 }
 
 @media (min-width: 1024px) {
-    .div-ben10-footer { display: flex; flex-direction: row; }
-    .ben10-footer { display: flex; margin-left: 14rem; height: 16rem; margin-top: 0.5rem; }
-    .luz-ben10-footer { display: flex; margin-left: -5.25rem; margin-top: -4rem; height: 20rem; }
-    .div-conteiner-footer { margin-left: -24rem; margin-top: 2rem; }
-    .div-conteiner-header { background-color: var(--preto); display: flex; justify-content: space-evenly; gap: 4rem; padding: 1rem; border-bottom: 0.15rem solid var(--branco); }
-    .div-esquerda-header { width: 6rem; height: 5rem; display: flex; justify-content: center; align-items: center; }
-    .div-direita-header { display: flex; justify-content: center; align-items: center; gap: 8rem; size: static; }
-    .div-direita-header a { color: var(--branco); }
-    .logo-img { width: 100%; height: 100%; }
-    .link-verde { color: var(--verde-medio); display: flex; justify-content: center; border-bottom: none; border-top: none; align-items: center; font-family: "Open Sans", sans-serif; font-size: 1.2rem; }
-    .link-branco { color: var(--branco); display: flex; justify-content: center; align-items: center; border-bottom: none; border-top: none; font-family: "Open Sans", sans-serif; font-size: 1.2rem; }
-    nav { position: static; align-self: center; }
-    #navbarBasicExample { position: static; border: none; background: none; }
+    .div-ben10-footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ben10-footer {
+        display: flex;
+        margin-left: 14rem;
+        height: 16rem;
+        margin-top: 0.5rem;
+    }
+
+    .luz-ben10-footer {
+        display: flex;
+        margin-left: -5.25rem;
+        margin-top: -4rem;
+        height: 20rem;
+    }
+
+    .div-conteiner-footer {
+        margin-left: -24rem;
+        margin-top: 2rem;
+    }
+
+    .div-conteiner-header {
+        background-color: var(--preto);
+        display: flex;
+        justify-content: space-evenly;
+        gap: 4rem;
+        padding: 1rem;
+        border-bottom: 0.15rem solid var(--branco);
+    }
+
+    .div-esquerda-header {
+        width: 6rem;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-direita-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        size: static;
+    }
+
+    .div-direita-header a {
+        color: var(--branco);
+    }
+
+    .logo-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .link-verde {
+        color: var(--verde-medio);
+        display: flex;
+        justify-content: center;
+        border-bottom: none;
+        border-top: none;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .link-branco {
+        color: var(--branco);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: none;
+        border-top: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    nav {
+        position: static;
+        align-self: center;
+    }
+
+    #navbarBasicExample {
+        position: static;
+        border: none;
+        background: none;
+    }
+
+    .main-title {
+        font-size: 4rem;
+        padding: 2rem;
+        -webkit-text-stroke: 0.6rem var(--verde-medio);
+    }
+
+    .subtitle {
+        font-size: 2.4rem;
+    }
+
+    .input {
+        display: flex;
+        justify-content: flex-end;
+        width: 35rem;
+    }
+
+    .textarea {
+        height: 28rem;
+        width: 35rem;
+        color: var(--branco);
+    }
+
+    .label {
+        padding-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    select {
+        width: 35rem;
+    }
+
+    .button {
+        height: 4rem;
+        width: 10rem;
+        margin: 1rem;
+    }
 }
 
 @media (min-width: 1440px) {
-    .ben10-footer { margin-left: 28rem; }
-    .div-conteiner-header { gap: 5rem; padding: 1.25rem; }
-    .div-esquerda-header { width: 7rem; height: 6rem; }
-    .div-esquerda-header .img-logo { width: 5.5rem; height: 5.5rem; }
-    .navbar-start { gap: 0.5rem; }
-    .link-verde, .link-branco { padding: 0.75rem 1rem; font-size: 1.35rem; }
-}
+    .ben10-footer {
+        margin-left: 28rem;
+    }
 
-@media (min-width: 1024px){
-    .main-title{
-        display: flex;
-        justify-content: center;
-        font-size: 7rem;
-        color: var(--preto);
-        font-family: "Protest Revolution", sans-serif;
-        font-weight: 400; 
+    .div-conteiner-header {
+        gap: 5rem;
+        padding: 1.25rem;
+    }
+
+    .div-esquerda-header {
+        width: 7rem;
+        height: 6rem;
+    }
+
+    .div-esquerda-header .img-logo {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .navbar-start {
+        gap: 0.5rem;
+    }
+
+    .link-verde,
+    .link-branco {
+        padding: 0.75rem 1rem;
+        font-size: 1.35rem;
+    }
+
+    .main-title {
+        font-size: 6rem;
         padding: 2rem;
-        padding-top: 18rem;
-        -webkit-text-stroke: 0.8rem var(--verde-medio);
-        paint-order: stroke fill;
+        -webkit-text-stroke: 0.6rem var(--verde-medio);
     }
-    .subtitle{
-        display: flex;
-        justify-content: center;
-        font-size: 3rem;
-        color: var(--preto);
-        font-family: "Protest Revolution", sans-serif;
-        font-weight: 400; 
-        padding: 1rem;
-        -webkit-text-stroke: 0.3rem var(--verde-medio);
-        paint-order: stroke fill;
+
+    .subtitle {
+        font-size: 2.4rem;
     }
-    .input{
+
+    .input {
         display: flex;
         justify-content: flex-end;
-        width: 40.4rem;
-    }   
-    .textarea{
-        height: 28rem;
-        width: 40.4rem;
-        color: var(--branco);
-    }
-    .label{
-        padding-top: 2rem;
-        font-size: 1.3rem
-    }
-    select{
-        width: 40.4rem;
-    }
-    .button{
-        height: 3rem;
-        width: 7rem;
-        margin: 2rem;
+        width: 48rem;
     }
 
+    .textarea {
+        height: 28rem;
+        width: 48rem;
+        color: var(--branco);
+    }
+
+    .label {
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+
+    select {
+        width: 48rem;
+    }
+
+    .button {
+        height: 4rem;
+        width: 20rem;
+        margin: 1rem;
+    }
 }
