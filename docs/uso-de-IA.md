@@ -4,7 +4,7 @@ descricao: Registro de todas as conversas com chatbot usadas no projeto, com dat
 autores: Thiago Henrique, Lucas Gabriel, Pedro Almeida
 versao: v0.9
 ultima_atualizacao: 2026-11-23
-site/js/main.js, site/css/estilo.css, site/css/personagemesp.css, site/css/creditos.css site/css/personagens.css, site/css/historia.css, site/css/heroivilao.css site/js/textodrop.js  docs/prints/explicacao.md docs/Printsdepromptsdetextos
+arquivos relacionados: site/js/main.js, site/css/estilo.css, site/css/personagemesp.css, site/css/creditos.css site/css/personagens.css, site/css/historia.css, site/css/heroivilao.css site/js/textodrop.js  docs/prints/explicacao.md docs/Printsdepromptsdetextos
 ---
 
 Cada uso de IA deve ser documentado neste documento. Caso haja uso de IA além do que for documentado, será atribuída nota zero para o trabalho.
