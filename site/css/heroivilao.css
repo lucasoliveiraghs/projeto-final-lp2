@@ -1,4 +1,4 @@
-:root{
+ :root{
     --branco: #FBFBFD;
     --preto: #222;
     --verde-medio: #64CC4F; 
@@ -189,7 +189,7 @@ footer{
     filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
 }
 
-.desc{
+.desc-ben{
     display: none;
     font-family: "Inter", sans-serif;
     font-size: 0.5rem;
