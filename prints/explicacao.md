@@ -37,6 +37,8 @@ IA12:
 <img width="390" height="729" alt="image" src="https://github.com/user-attachments/assets/8dff9a8c-6493-42f3-9fe4-43ffd0ba5527" />
 
 IA13:
+<img width="362" height="299" alt="image" src="https://github.com/user-attachments/assets/919d1dab-4ef1-438f-8b5e-42e3f4268cb7" />
+
 
 
 
