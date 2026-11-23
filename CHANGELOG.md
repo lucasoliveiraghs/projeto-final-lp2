@@ -57,7 +57,7 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 | 2026-11-22 | Lucas G. Oliveira | HTML , CSS e JS | `index.html` , `site/css/estilo.css` , `site/js/main.js` | confecção do omnitrix interativo em telas de 1024px e 1440px, além do resto da página. |
 | 2026-11-22 | Lucas G. Oliveira | HTML e CSS | `site/html/quiz.html` , `site/css/quiz.css` | Confecção da página de quiz na tela de 1024px e 1440px. |
 | 2026-11-22 | Pedro Almeida  | HTML e CSS | `site/css/questionario.css`, `site/css/historia.css`, `site/css/heroivilao.css`, `site/css/personagens.css` , `site/css/personagemesp.css` | Confecção das páginas de questionário, personagens, personagens específicos, história, heróis e vilões na tela de 1440px. |
-| 2026-11-22 | Thiago Henrique| HTML e CSS | site/css/creditos.css | Confecção da página de créditos na tela de 1440px. |
+| 2026-11-22 | Thiago Henrique| HTML e CSS | `site/css/creditos.css` | Confecção da página de créditos na tela de 1440px. |
 
 
 
