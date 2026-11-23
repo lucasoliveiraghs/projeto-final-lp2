@@ -1,53 +1,53 @@
-:root{
+:root {
     --branco: #FBFBFD;
     --preto: #222;
     --verde-medio: #64CC4F;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .protest-revolution-regular {
-  font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
 
 
 .open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
-#div-pai-de-todas{
+#div-pai-de-todas {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.back-geral{
+.back-geral {
     background-image: url("../assets/img/backgrounds/Background.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.div-conteiner-header{
+.div-conteiner-header {
     background-color: var(--preto);
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@
     border-bottom: 0.15rem solid var(--branco);
 }
 
-.div-esquerda-header{
+.div-esquerda-header {
     width: 4rem;
     height: 3rem;
     display: flex;
@@ -64,27 +64,27 @@
     align-items: center;
 }
 
-.div-direita-header{
+.div-direita-header {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-.div-direita-header a{
+.div-direita-header a {
     color: var(--branco);
 }
 
-.logo-img{
+.logo-img {
     width: 4rem;
     height: 3rem;
 }
 
-.div-direita-header{
+.div-direita-header {
     size: 4rem;
 }
 
-.link-verde{
+.link-verde {
     color: var(--verde-medio);
     display: flex;
     justify-content: center;
@@ -94,7 +94,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.link-branco{
+.link-branco {
     color: var(--branco);
     display: flex;
     justify-content: center;
@@ -104,52 +104,53 @@
     font-family: "Open Sans", sans-serif;
 }
 
-nav{
+nav {
     position: relative;
 }
 
-#navbarBasicExample{
+#navbarBasicExample {
     position: absolute;
     top: 100%;
     background-color: var(--preto);
     border: 0.15rem solid var(--branco);
 }
 
-footer{
+footer {
     background-color: var(--preto);
     border-top: 0.15rem solid var(--branco);
 }
 
-.div-conteiner-footer{
+.div-conteiner-footer {
     display: flex;
     justify-content: center;
     gap: 4rem;
     padding: 0.5rem;
-    border-bottom: 0.15rem solid var(--branco);
 }
 
-header{
+header {
     position: sticky;
     z-index: 1000;
+    top: 0;
 }
 
-.h3-footer{
+.h3-footer {
     color: var(--verde-medio);
     font-size: 0.8rem;
     font-family: "Open Sans", sans-serif;
 }
 
-.li-footer{
+.li-footer {
     color: var(--branco);
 }
 
-.li-footer, a{
+.li-footer,
+a {
     color: var(--branco);
     font-size: 0.7rem;
     font-family: "Open Sans", sans-serif;
 }
 
-.alinhamento{
+.alinhamento {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -157,47 +158,79 @@ header{
     margin-bottom: 0.5rem;
 }
 
-#github-logo{
+#github-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-#whatsapp-logo{
+#whatsapp-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-#instagram-logo{
+#instagram-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-.feito-por{
+.feito-por {
     color: var(--branco);
     padding: 0.1rem;
     display: flex;
     justify-content: center;
     font-size: 0.625rem;
     font-family: "Open Sans", sans-serif;
+    border-top: 0.15rem solid var(--branco);
 }
-.main-title{
+
+.main-title {
     display: flex;
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--preto);
     font-family: "Protest Revolution", sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
     padding: 3rem;
     -webkit-text-stroke: 0.5rem var(--verde-medio);
     paint-order: stroke fill;
     text-align: center;
 }
 
-.section-personagemesp{
-    background-image: url("../assets/img/backgrounds/Background-vertical.svg");
+.section-personagens {
+    background-image: url("../assets/img/backgrounds/Background.svg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+}
+
+.div-selecao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.herois,
+.viloes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grupo-h,
+.grupo-v {
+    display: block;
+    width: 8rem;
+    height: auto;
+}
+
+.section-personagemesp {
+    background-image: url("../assets/img/backgrounds/Background.svg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -205,26 +238,26 @@ header{
     padding-bottom: 14rem;
 }
 
-.subtitle{
+.subtitle {
     display: flex;
     justify-content: center;
     font-size: 2rem;
     color: var(--preto);
     font-family: "Protest Revolution", sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
     padding: 1rem;
     -webkit-text-stroke: 0.3rem var(--verde-medio);
     paint-order: stroke fill;
 }
 
-.personagemesp{
+.personagemesp {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.personagemesp-img{
+.personagemesp-img {
     width: 8rem;
     height: auto;
     margin-bottom: 2rem;
@@ -232,7 +265,7 @@ header{
     filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.55));
 }
 
-.desc{
+.desc {
     color: var(--branco);
     text-align: justify;
     width: 16rem;
@@ -244,50 +277,160 @@ header{
 }
 
 @media (min-width: 1024px) {
-    .div-ben10-footer { display: flex; flex-direction: row; }
-    .ben10-footer { display: flex; margin-left: 14rem; height: 16rem; margin-top: 0.5rem; }
-    .luz-ben10-footer { display: flex; margin-left: -5.25rem; margin-top: -4rem; height: 20rem; }
-    .div-conteiner-footer { margin-left: -24rem; margin-top: 2rem; }
-    .div-conteiner-header { background-color: var(--preto); display: flex; justify-content: space-evenly; gap: 4rem; padding: 1rem; border-bottom: 0.15rem solid var(--branco); }
-    .div-esquerda-header { width: 6rem; height: 5rem; display: flex; justify-content: center; align-items: center; }
-    .div-direita-header { display: flex; justify-content: center; align-items: center; gap: 8rem; size: static; }
-    .div-direita-header a { color: var(--branco); }
-    .logo-img { width: 100%; height: 100%; }
-    .link-verde { color: var(--verde-medio); display: flex; justify-content: center; border-bottom: none; border-top: none; align-items: center; font-family: "Open Sans", sans-serif; font-size: 1.2rem; }
-    .link-branco { color: var(--branco); display: flex; justify-content: center; align-items: center; border-bottom: none; border-top: none; font-family: "Open Sans", sans-serif; font-size: 1.2rem; }
-    nav { position: static; align-self: center; }
-    #navbarBasicExample { position: static; border: none; background: none; }
+    .div-selecao {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10rem;
+        padding: 1rem 0 3rem;
+    }
+
+    .grupo-h,
+    .grupo-v {
+        width: 13rem;
+    }
+
+    .div-ben10-footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ben10-footer {
+        display: flex;
+        margin-left: 14rem;
+        height: 16rem;
+        margin-top: 0.5rem;
+    }
+
+    .luz-ben10-footer {
+        display: flex;
+        margin-left: -5.25rem;
+        margin-top: -4rem;
+        height: 20rem;
+    }
+
+    .div-conteiner-footer {
+        margin-left: -24rem;
+        margin-top: 2rem;
+    }
+
+    .div-conteiner-header {
+        background-color: var(--preto);
+        display: flex;
+        justify-content: space-evenly;
+        gap: 4rem;
+        padding: 1rem;
+        border-bottom: 0.15rem solid var(--branco);
+    }
+
+    .div-esquerda-header {
+        width: 6rem;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-direita-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        size: static;
+    }
+
+    .div-direita-header a {
+        color: var(--branco);
+    }
+
+    .logo-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .link-verde {
+        color: var(--verde-medio);
+        display: flex;
+        justify-content: center;
+        border-bottom: none;
+        border-top: none;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .link-branco {
+        color: var(--branco);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: none;
+        border-top: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    nav {
+        position: static;
+        align-self: center;
+    }
+
+    #navbarBasicExample {
+        position: static;
+        border: none;
+        background: none;
+    }
 }
 
 @media (min-width: 1440px) {
-    .ben10-footer { margin-left: 28rem; }
-    .div-conteiner-header { gap: 5rem; padding: 1.25rem; }
-    .div-esquerda-header { width: 7rem; height: 6rem; }
-    .div-esquerda-header .img-logo { width: 5.5rem; height: 5.5rem; }
-    .navbar-start { gap: 0.5rem; }
-    .link-verde, .link-branco { padding: 0.75rem 1rem; font-size: 1.35rem; }
-}
 
-@media (min-width: 1440px){
-    .personagemesp-img{
+     .ben10-footer {
+        margin-left: 28rem;
+    }
+
+    .div-conteiner-header {
+        gap: 5rem;
+        padding: 1.25rem;
+    }
+
+    .div-esquerda-header {
+        width: 7rem;
+        height: 6rem;
+    }
+
+    .div-esquerda-header .img-logo {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .navbar-start {
+        gap: 0.5rem;
+    }
+
+    .link-verde,
+    .link-branco {
+        padding: 0.75rem 1rem;
+        font-size: 1.35rem;
+    }
+    .personagemesp-img {
         width: 20rem;
         border: solid 0.5rem var(--preto);
     }
-    .main-title{
-        display: flex;
+
+    .main-title {
+        font-size: 4rem;
+        -webkit-text-stroke: 0.7rem var(--verde-medio);
+    }
+
+    .div-selecao {
+        flex-direction: row;
         justify-content: center;
-        font-size: 8rem;
-        color: var(--preto);
-        font-family: "Protest Revolution", sans-serif;
-        font-weight: 400; 
-        padding: 5rem;
-        padding-top: 10rem;
-        -webkit-text-stroke: 0.8rem var(--verde-medio);
-        paint-order: stroke fill;
+        gap: 15rem;
+        padding: 1rem 0 3rem;
     }
-    .desc{
-        padding-top: 2rem;
-        width: 50rem;
-        font-size: 1.5rem;
+
+    .grupo-h,
+    .grupo-v {
+        width: 18rem;
     }
+
 }

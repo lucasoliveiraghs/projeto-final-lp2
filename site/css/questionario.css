@@ -196,7 +196,7 @@ header{
     paint-order: stroke fill;
 }
 .section-questionario{
-    background-image: url("../assets/img/backgrounds/Background-vertical.svg");
+    background-image: url("../assets/img/backgrounds/Background.svg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;

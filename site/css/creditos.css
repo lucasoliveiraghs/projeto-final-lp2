@@ -1,53 +1,53 @@
-:root{
+:root {
     --branco: #FBFBFD;
     --preto: #222;
     --verde-medio: #64CC4F;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .protest-revolution-regular {
-  font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
 
 
 .open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
-#div-pai-de-todas{
+#div-pai-de-todas {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.back-geral{
+.back-geral {
     background-image: url("../assets/img/backgrounds/Background.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.div-conteiner-header{
+.div-conteiner-header {
     background-color: var(--preto);
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@
     border-bottom: 0.15rem solid var(--branco);
 }
 
-.div-esquerda-header{
+.div-esquerda-header {
     width: 4rem;
     height: 3rem;
     display: flex;
@@ -64,27 +64,27 @@
     align-items: center;
 }
 
-.div-direita-header{
+.div-direita-header {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-.div-direita-header a{
+.div-direita-header a {
     color: var(--branco);
 }
 
-.logo-img{
+.logo-img {
     width: 4rem;
     height: 3rem;
 }
 
-.div-direita-header{
+.div-direita-header {
     size: 4rem;
 }
 
-.link-verde{
+.link-verde {
     color: var(--verde-medio);
     display: flex;
     justify-content: center;
@@ -94,7 +94,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.link-branco{
+.link-branco {
     color: var(--branco);
     display: flex;
     justify-content: center;
@@ -104,46 +104,47 @@
     font-family: "Open Sans", sans-serif;
 }
 
-nav{
+nav {
     position: relative;
 }
 
-#navbarBasicExample{
+#navbarBasicExample {
     position: absolute;
     top: 100%;
     background-color: var(--preto);
     border: 0.15rem solid var(--branco);
 }
 
-footer{
+footer {
     background-color: var(--preto);
     border-top: 0.15rem solid var(--branco);
 }
 
-.div-conteiner-footer{
+.div-conteiner-footer {
     display: flex;
     justify-content: center;
     gap: 4rem;
     padding: 0.5rem;
 }
 
-.h3-footer{
+.h3-footer {
     color: var(--verde-medio);
     font-size: 0.8rem;
     font-family: "Open Sans", sans-serif;
 }
 
-.li-footer{
+.li-footer {
     color: var(--branco);
 }
 
-.li-footer, a{
+.li-footer,
+a {
     color: var(--branco);
     font-size: 0.7rem;
     font-family: "Open Sans", sans-serif;
 }
 
-.alinhamento{
+.alinhamento {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -151,25 +152,25 @@ footer{
     margin-bottom: 0.5rem;
 }
 
-#github-logo{
+#github-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-#whatsapp-logo{
+#whatsapp-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-#instagram-logo{
+#instagram-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-.feito-por{
+.feito-por {
     color: var(--branco);
     padding: 0.1rem;
     display: flex;
@@ -179,13 +180,13 @@ footer{
     border-top: 0.15rem solid var(--branco);
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-.section-creditos{
+.section-creditos {
     background-image: url("../assets/img/backgrounds/Background.svg");
     background-size: cover;
     background-position: center top;
@@ -195,7 +196,7 @@ header{
 
 }
 
-.titulo-personagens{
+.titulo-personagens {
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -205,42 +206,43 @@ header{
     justify-content: center;
 }
 
-.main-title{
+.main-title {
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
     color: var(--preto);
     font-family: "Protest Revolution", sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
     padding: 3rem;
     -webkit-text-stroke: 0.5rem var(--verde-medio);
     paint-order: stroke fill;
 }
 
-.autor{
+.autor {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     border: solid 0.3rem var(--preto);
-    width: 25rem;
-    margin: 6rem;
+    width: 18rem;
     padding: 0.6rem;
     padding-bottom: 1rem;
     border-radius: 1.4rem;
     filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
     transition: filter 0.3s ease, transform 0.3s ease;
+    margin-bottom: 2rem;
 }
 
-.autorimg{
+.autorimg {
     padding: 1.8rem;
-    height: 10rem;
+    width: 10rem;
+    height: 15rem;
     width: auto;
     filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
     transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-.textoautor{
+.textoautor {
     text-align: justify;
     color: var(--branco);
     font-size: 1rem;
@@ -252,56 +254,187 @@ header{
 }
 
 @media (min-width: 1024px) {
-    .div-ben10-footer { display: flex; flex-direction: row; }
-    .ben10-footer { display: flex; margin-left: 14rem; height: 16rem; margin-top: 0.5rem; }
-    .luz-ben10-footer { display: flex; margin-left: -5.25rem; margin-top: -4rem; height: 20rem; }
-    .div-conteiner-footer { margin-left: -24rem; margin-top: 2rem; }
-    .div-conteiner-header { background-color: var(--preto); display: flex; justify-content: space-evenly; gap: 4rem; padding: 1rem; border-bottom: 0.15rem solid var(--branco); }
-    .div-esquerda-header { width: 6rem; height: 5rem; display: flex; justify-content: center; align-items: center; }
-    .div-direita-header { display: flex; justify-content: center; align-items: center; gap: 8rem; size: static; }
-    .div-direita-header a { color: var(--branco); }
-    .logo-img { width: 100%; height: 100%; }
-    .link-verde { color: var(--verde-medio); display: flex; justify-content: center; border-bottom: none; border-top: none; align-items: center; font-family: "Open Sans", sans-serif; font-size: 1.2rem; }
-    .link-branco { color: var(--branco); display: flex; justify-content: center; align-items: center; border-bottom: none; border-top: none; font-family: "Open Sans", sans-serif; font-size: 1.2rem; }
-    nav { position: static; align-self: center; }
-    #navbarBasicExample { position: static; border: none; background: none; }
+    .div-ben10-footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ben10-footer {
+        display: flex;
+        margin-left: 14rem;
+        height: 16rem;
+        margin-top: 0.5rem;
+    }
+
+    .luz-ben10-footer {
+        display: flex;
+        margin-left: -5.25rem;
+        margin-top: -4rem;
+        height: 20rem;
+    }
+
+    .div-conteiner-footer {
+        margin-left: -24rem;
+        margin-top: 2rem;
+    }
+
+    .div-conteiner-header {
+        background-color: var(--preto);
+        display: flex;
+        justify-content: space-evenly;
+        gap: 4rem;
+        padding: 1rem;
+        border-bottom: 0.15rem solid var(--branco);
+    }
+
+    .div-esquerda-header {
+        width: 6rem;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-direita-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        size: static;
+    }
+
+    .div-direita-header a {
+        color: var(--branco);
+    }
+
+    .logo-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .link-verde {
+        color: var(--verde-medio);
+        display: flex;
+        justify-content: center;
+        border-bottom: none;
+        border-top: none;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .link-branco {
+        color: var(--branco);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: none;
+        border-top: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    nav {
+        position: static;
+        align-self: center;
+    }
+
+    #navbarBasicExample {
+        position: static;
+        border: none;
+        background: none;
+    }
+
+        .autor {
+    width: 35rem;
+    flex-direction: row;
+}
+
+
+.autorimg {
+    width: auto;
+    height: 18rem;
+}
+
+.textoautor {
+    font-size: 1.3rem;
+}
 }
 
 @media (min-width: 1440px) {
-    .ben10-footer { margin-left: 28rem; }
-    .div-conteiner-header { gap: 5rem; padding: 1.25rem; }
-    .div-esquerda-header { width: 7rem; height: 6rem; }
-    .div-esquerda-header .img-logo { width: 5.5rem; height: 5.5rem; }
-    .navbar-start { gap: 0.5rem; }
-    .link-verde, .link-branco { padding: 0.75rem 1rem; font-size: 1.35rem; }
-}
+    .ben10-footer {
+        margin-left: 28rem;
+    }
 
-@media (min-width: 1440px){
-    .main-title{
+    .div-conteiner-header {
+        gap: 5rem;
+        padding: 1.25rem;
+    }
+
+    .div-esquerda-header {
+        width: 7rem;
+        height: 6rem;
+    }
+
+    .div-esquerda-header .img-logo {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .navbar-start {
+        gap: 0.5rem;
+    }
+
+    .link-verde,
+    .link-branco {
+        padding: 0.75rem 1rem;
+        font-size: 1.35rem;
+    }
+
+
+    .main-title {
         display: flex;
         justify-content: center;
         font-size: 8rem;
         color: var(--preto);
         font-family: "Protest Revolution", sans-serif;
-        font-weight: 400; 
+        font-weight: 400;
         padding: 5rem;
         -webkit-text-stroke: 0.8rem var(--verde-medio);
         paint-order: stroke fill;
     }
-    .autor{
+
+    .autor {
         width: 50rem;
         height: 25rem;
         filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
         transition: filter 0.3s ease, transform 0.3s ease;
     }
-    .textoautor{
+
+    .textoautor {
         font-size: 1.6rem;
         padding: 3rem;
     }
-    .autorimg{
+
+    .autorimg {
         height: 20rem;
         width: auto;
         filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
         transition: filter 0.3s ease, transform 0.3s ease;
     }
+
+    .autor {
+    width: 50rem;
+    flex-direction: row;
+}
+
+
+.autorimg {
+    width: auto;
+    height: 25rem;
+}
+
+.textoautor {
+    font-size: 1.6rem;
+}
 }

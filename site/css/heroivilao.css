@@ -155,6 +155,28 @@ footer{
     padding-bottom: 3rem;
 }
 
+.select.seletor-personagens{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto 2rem;
+}
+
+.select.seletor-personagens select{
+    background-color: var(--preto);
+    border-color: var(--verde-medio);
+    color: var(--branco);
+}
+
+.select.seletor-personagens:not(.is-multiple):not(.is-loading)::after{
+    border-color: var(--verde-medio);
+}
+
+.select.seletor-personagens select option{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
 .titulo-personagens{
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
@@ -199,6 +221,8 @@ footer{
 .luz-ben10-footer {
     display: none;
 }
+
+
 
 @media (min-width: 1024px) {
     .div-ben10-footer { display: flex; flex-direction: row; }
