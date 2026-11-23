@@ -123,9 +123,6 @@ const benpers = document.getElementById('img-ben');
 const descben = document.getElementById('desc-ben');
 
 benpers.addEventListener('click', () => {
-  if(descben.style.display === 'none'){
-    descben.style.display = 'flex';
-  }else{
-    descben.style.display = 'none';
-  }
+  descben.style.display = descben.style.display === 'flex' ? 'none' : 'flex';
 });
+
