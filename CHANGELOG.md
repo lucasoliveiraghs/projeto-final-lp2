@@ -38,19 +38,19 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 | 2026-11-19 | Lucas G. Oliveira | HTML e CSS | `site/html/quiz` , `site/css/quiz` | Confecção da página de quiz. |
 | 2026-11-19 | Pedro Almeida | HTML | `site/html/ben10esp.html`, `site/html/gwenesp.html`, `site/html/vomaxesp.html`, `site/html/kevinesp.html`, `site/html/vilgaxesp.html`, `site/html/dranimalesp.html`, `site/css/personagemesp.css`| Criação das páginas de personagens específicos |
 
-## v0.6 – Página principal (2026-11-20)
+## v0.6 – Página Principal (2026-11-20)
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
 | 2026-11-20 | Lucas G. Oliveira | HTML , CSS e JS | `index.html` , `site/css/estilo.css` , `site/js/main.js` | Confecção da interatividade com o omnitrix da página index. |
 
-## v0.7 – Página principal (2026-11-21)
+## v0.7 – Responsividade (2026-11-21)
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
 | 2026-11-21 | Lucas G. Oliveira | HTML e CSS | `index.html` , `site/css/estilo.css` , `site/html/html-aliens.html` , `site/css/aliens-css.css` | Confecção do header e footer na media query (1024 e 1440) e corpo das páginas de aliens nas mesmas medias querys (1024 e 1440). |
 
-## v0.8 – Página principal (2026-11-22)
+## v0.8 – Responsividade (2026-11-22)
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
@@ -59,11 +59,12 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 | 2026-11-22 | Pedro Almeida  | HTML e CSS | `site/css/questionario.css`, `site/css/historia.css`, `site/css/heroivilao.css`, `site/css/personagens.css` , `site/css/personagemesp.css` | Confecção das páginas de questionário, personagens, personagens específicos, história, heróis e vilões na tela de 1440px. |
 | 2026-11-22 | Thiago Henrique| HTML e CSS | `site/css/creditos.css` | Confecção da página de créditos na tela de 1440px. |
 
-## v0.9 – Página principal (2026-11-23)
+## v0.9 – Página de heróis e vilões (2026-11-23)
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-23 | Lucas G. Oliveira | HTML , CSS e JS | `site/html/html` , `site/css/` , `site/js` | Confecção de um botão seletor na página de personagens (heroi e vilão), acréscimo de detalhes na disposição e layout e correção de erros de lógica e layout. |
+| 2026-11-23 | Lucas G. Oliveira | HTML , CSS e JS | `site/html/herois.html` ,`site/html/viloes.html` , `site/css/heroivilao.css` , `site/js/ordernar-personagens.js` | Confecção de um botão seletor na página de personagens (heroi e vilão), acréscimo de detalhes na disposição e layout e correção de erros de lógica e layout. |
+| 2026-11-23 | Pedro Almeida | HTML , CSS e JS | `site/html/herois.html` , `site/html/viloes.html` , `site/css/heroivilao.css` , `site/js/textodrop.js` | Texto que desce ao clicar na imagem do herói ou vilão, e animação do texto. |
 
 
 
