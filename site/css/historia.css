@@ -228,10 +228,14 @@ a {
 }
 
 .textotemp {
-    width: 16rem;
+    width: 14rem;
     font-size: 0.8rem;
     text-align: justify;
-    color: var(--branco);
+    color: var(--branco);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.6rem
 }
 
 .eptemp {
