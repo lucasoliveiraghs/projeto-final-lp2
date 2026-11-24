@@ -222,6 +222,7 @@ header{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .personagemesp-img{
@@ -236,6 +237,7 @@ header{
     color: var(--branco);
     text-align: justify;
     width: 16rem;
+    position: absolute;
 }
 
 .ben10-footer,
