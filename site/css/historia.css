@@ -410,10 +410,6 @@ a {
         padding-top: 1.8rem;
     }
 
-    .section-historia {
-        padding-bottom: 43rem;
-    }
-
     .h3title {
         font-size: 4rem;
         color: var(--preto);
@@ -421,17 +417,6 @@ a {
         font-weight: 400;
         padding: 3rem;
         -webkit-text-stroke: 0.8rem var(--verde-medio);
-        paint-order: stroke fill;
-    }
-    .h3titlex{
-        display: flex;
-        justify-content: center;
-        font-size: 4rem;
-        color: var(--branco);
-        font-family: "Protest Revolution", sans-serif;
-        font-weight: 400;
-        padding: 1rem;
-        -webkit-text-stroke: 0.3rem var(--preto);
         paint-order: stroke fill;
     }
 
