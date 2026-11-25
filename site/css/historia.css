@@ -416,11 +416,11 @@ a {
 
     .h3titlex {
         font-size: 4rem;
-        color: var(--preto);
+        color: var(--branco);
         font-family: "Protest Revolution", sans-serif;
         font-weight: 400;
         padding: 3rem;
-        -webkit-text-stroke: 0.8rem var(--verde-medio);
+        -webkit-text-stroke: 0.8rem var(--preto);
         paint-order: stroke fill;
     }
 

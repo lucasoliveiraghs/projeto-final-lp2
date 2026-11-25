@@ -1,23 +1,23 @@
 @import "https://unpkg.com/open-props";
 
- :root{
+:root {
     --branco: #FBFBFD;
     --preto: #222;
-    --verde-medio: #64CC4F; 
+    --verde-medio: #64CC4F;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .protest-revolution-regular {
-  font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.div-conteiner-header{
+.div-conteiner-header {
     background-color: var(--preto);
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@
     border-bottom: 0.15rem solid var(--branco);
 }
 
-.div-esquerda-header{
+.div-esquerda-header {
     width: 4rem;
     height: 3rem;
     display: flex;
@@ -34,29 +34,30 @@
     align-items: center;
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-.div-direita-header{
+.div-direita-header {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-.logo-img{
+.logo-img {
     width: 4rem;
     height: 3rem;
 }
 
-.div-direita-header, span{
+.div-direita-header,
+span {
     size: 4rem;
 }
 
-.link-verde{
+.link-verde {
     color: var(--verde-medio);
     display: flex;
     justify-content: center;
@@ -65,7 +66,7 @@ header{
     align-items: center;
 }
 
-.link-branco{
+.link-branco {
     color: var(--branco);
     display: flex;
     justify-content: center;
@@ -74,45 +75,46 @@ header{
     border-top: 0.1rem solid var(--branco);
 }
 
-nav{
+nav {
     position: relative;
 }
 
-#navbarBasicExample{
+#navbarBasicExample {
     position: absolute;
     top: 100%;
     background-color: var(--preto);
     border: 0.15rem solid var(--branco);
 }
 
-footer{
+footer {
     background-color: var(--preto);
     margin-top: 0.1rem;
     border-top: 0.15rem solid var(--branco);
 }
 
-.div-conteiner-footer{
+.div-conteiner-footer {
     display: flex;
     justify-content: center;
     gap: 4rem;
     padding: 0.5rem;
 }
 
-.h3-footer{
+.h3-footer {
     color: var(--verde-medio);
     font-size: 0.8rem;
 }
 
-.li-footer{
+.li-footer {
     color: var(--branco);
 }
 
-.li-footer, a{
+.li-footer,
+a {
     color: var(--branco);
     font-size: 0.7rem;
 }
 
-.alinhamento{
+.alinhamento {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -120,25 +122,25 @@ footer{
     margin-bottom: 0.5rem;
 }
 
-#github-logo{
+#github-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-#whatsapp-logo{
+#whatsapp-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-#instagram-logo{
+#instagram-logo {
     margin-right: 0.3rem;
     width: 1.2rem;
     height: 1.2rem;
 }
 
-.feito-por{
+.feito-por {
     color: var(--branco);
     padding: 0.1rem;
     display: flex;
@@ -149,7 +151,7 @@ footer{
 
 /*Personagens*/
 
-.section-personagens{
+.section-personagens {
     background-image: url("../assets/img/backgrounds/Background.svg");
     background-size: cover;
     background-position: center top;
@@ -157,29 +159,29 @@ footer{
     padding-bottom: 3rem;
 }
 
-.select.seletor-personagens{
+.select.seletor-personagens {
     display: flex;
     justify-content: center;
     width: fit-content;
     margin: 0 auto 2rem;
 }
 
-.select.seletor-personagens select{
+.select.seletor-personagens select {
     background-color: var(--preto);
     border-color: var(--verde-medio);
     color: var(--branco);
 }
 
-.select.seletor-personagens:not(.is-multiple):not(.is-loading)::after{
+.select.seletor-personagens:not(.is-multiple):not(.is-loading)::after {
     border-color: var(--verde-medio);
 }
 
-.select.seletor-personagens select option{
+.select.seletor-personagens select option {
     background-color: var(--preto);
     color: var(--branco);
 }
 
-.titulo-personagens{
+.titulo-personagens {
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -189,45 +191,74 @@ footer{
     justify-content: center;
 }
 
-.main-title{
+.main-title {
     display: flex;
     justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
     font-size: 2.5rem;
     color: var(--preto);
     font-family: "Protest Revolution", sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
     padding: 3rem;
     -webkit-text-stroke: 0.5rem var(--verde-medio);
     paint-order: stroke fill;
 }
 
-.personagens{
+.subtitulo-personagens {
+    display: flex;
+    justify-content: center;
+    font-family: "Protest Revolution", sans-serif;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--verde-medio);
+    -webkit-text-stroke: 0.4rem var(--preto);
+    paint-order: stroke fill;
+}
+
+.subtitulo-personagens a {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.personagens {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.img-personagem{
+@media (max-width: 1023px) {
+
+    .personagem1,
+    .personagem2,
+    .personagem3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 12rem;
+    }
+}
+
+.img-personagem {
     height: 10rem;
     width: auto;
     filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.55));
 }
 
-.img-personagem:hover{
+.img-personagem:hover {
     animation: var(--scale-up) forwards;
 }
 
-.desc{
-    display: none;
-    font-family: "Inter", sans-serif;
-    font-size: 0.5rem;
-}
+
 
 .ben10-footer,
 .luz-ben10-footer {
     display: none;
 }
-.desc{
+
+.desc {
     display: none;
     color: var(--branco);
     width: 10rem;
@@ -236,17 +267,18 @@ footer{
     font-size: 0.8rem;
 }
 
-.desc.visivel{
+.desc.visivel {
     display: block;
     animation: slideInDown 0.5s ease both;
 }
 
-@keyframes slideInDown{
-    from{
+@keyframes slideInDown {
+    from {
         opacity: 0;
         transform: translateY(-100%);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateY(0);
     }
@@ -254,70 +286,196 @@ footer{
 
 
 @media (min-width: 1024px) {
-    .div-ben10-footer { display: flex; flex-direction: row; }
-    .ben10-footer { display: flex; margin-left: 14rem; height: 16rem; margin-top: 0.5rem; }
-    .luz-ben10-footer { display: flex; margin-left: -5.25rem; margin-top: -4rem; height: 20rem; }
-    .div-conteiner-footer { margin-left: -24rem; margin-top: 2rem; }
-    .div-conteiner-header { background-color: var(--preto); display: flex; justify-content: space-evenly; gap: 4rem; padding: 1rem; border-bottom: 0.15rem solid var(--branco); }
-    .div-esquerda-header { width: 6rem; height: 5rem; display: flex; justify-content: center; align-items: center; }
-    .div-direita-header { display: flex; justify-content: center; align-items: center; gap: 8rem; size: static; }
-    .div-direita-header a { color: var(--branco); }
-    .logo-img { width: 100%; height: 100%; }
-    .link-verde { color: var(--verde-medio); display: flex; justify-content: center; border-bottom: none; border-top: none; align-items: center; font-family: "Open Sans", sans-serif; font-size: 1.2rem; }
-    .link-branco { color: var(--branco); display: flex; justify-content: center; align-items: center; border-bottom: none; border-top: none; font-family: "Open Sans", sans-serif; font-size: 1.2rem; }
-    nav { position: static; align-self: center; }
-    #navbarBasicExample { position: static; border: none; background: none; }
+    .div-ben10-footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ben10-footer {
+        display: flex;
+        margin-left: 14rem;
+        height: 16rem;
+        margin-top: 0.5rem;
+    }
+
+    .luz-ben10-footer {
+        display: flex;
+        margin-left: -5.25rem;
+        margin-top: -4rem;
+        height: 20rem;
+    }
+
+    .div-conteiner-footer {
+        margin-left: -24rem;
+        margin-top: 2rem;
+    }
+
+    .div-conteiner-header {
+        background-color: var(--preto);
+        display: flex;
+        justify-content: space-evenly;
+        gap: 4rem;
+        padding: 1rem;
+        border-bottom: 0.15rem solid var(--branco);
+    }
+
+    .div-esquerda-header {
+        width: 6rem;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-direita-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        size: static;
+    }
+
+    .div-direita-header a {
+        color: var(--branco);
+    }
+
+    .logo-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .link-verde {
+        color: var(--verde-medio);
+        display: flex;
+        justify-content: center;
+        border-bottom: none;
+        border-top: none;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .link-branco {
+        color: var(--branco);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: none;
+        border-top: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    nav {
+        position: static;
+        align-self: center;
+    }
+
+    #navbarBasicExample {
+        position: static;
+        border: none;
+        background: none;
+    }
 }
 
 @media (min-width: 1440px) {
-    .ben10-footer { margin-left: 28rem; }
-    .div-conteiner-header { gap: 5rem; padding: 1.25rem; }
-    .div-esquerda-header { width: 7rem; height: 6rem; }
-    .div-esquerda-header .img-logo { width: 5.5rem; height: 5.5rem; }
-    .navbar-start { gap: 0.5rem; }
-    .link-verde, .link-branco { padding: 0.75rem 1rem; font-size: 1.35rem; }
-    .main-title{
+    .select.seletor-personagens {
+        font-size: 2rem;
+    }
+
+    .ben10-footer {
+        margin-left: 28rem;
+    }
+
+    .div-conteiner-header {
+        gap: 5rem;
+        padding: 1.25rem;
+    }
+
+    .div-esquerda-header {
+        width: 7rem;
+        height: 6rem;
+    }
+
+    .div-esquerda-header .img-logo {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .navbar-start {
+        gap: 0.5rem;
+    }
+
+    .link-verde,
+    .link-branco {
+        padding: 0.75rem 1rem;
+        font-size: 1.35rem;
+    }
+
+    .main-title {
         display: flex;
         justify-content: center;
         font-size: 7rem;
         color: var(--preto);
         font-family: "Protest Revolution", sans-serif;
-        font-weight: 400; 
+        font-weight: 400;
         padding: 5rem;
         -webkit-text-stroke: 0.8rem var(--verde-medio);
         paint-order: stroke fill;
     }
-    .personagens{
+
+    .subtitulo-personagens {
+        margin-top: -4rem;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        -webkit-text-stroke: 0.3rem var(--verde-medio);
+    }
+
+    .personagens {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 8rem;
     }
-    .img-personagem{
+
+    .img-personagem {
         height: 14rem;
         width: auto;
     }
-    .img-personagem:hover{
+
+    .img-personagem:hover {
         filter: drop-shadow(0 0 0.9rem rgba(0, 0, 0, 0.8));
         transform: scale(1.1);
         transition: filter 0.3s ease, transform 0.3s ease;
     }
-    .personagem1{
+
+    .personagem1 {
         padding: 3rem;
     }
-    .personagem2{
+
+    .personagem2 {
         padding: 3rem;
     }
-    .personagem3{
+
+    .personagem3 {
         padding: 3rem;
     }
-    .desc{
-        width: 13.5rem;
-        margin: 0.5rem;
-        font-size: 1rem;
+
+    .personagem1,
+    .personagem2,
+    .personagem3 {
+        position: relative;
     }
-    .titulo-personagens{
+
+    .desc {
+        position: absolute;
+        width: 20rem;
+        margin-left: -2.4rem;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .titulo-personagens {
         font-family: "Protest Revolution", sans-serif;
         font-weight: 400;
         font-size: 3rem;
@@ -327,5 +485,15 @@ footer{
         display: flex;
         justify-content: center;
     }
-}
 
+    .subtitulo-personagens {
+    display: flex;
+    justify-content: center;
+    font-family: "Protest Revolution", sans-serif;
+    padding: 1rem;
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--verde-medio);
+    -webkit-text-stroke: 0.8rem var(--preto);
+}
+}
