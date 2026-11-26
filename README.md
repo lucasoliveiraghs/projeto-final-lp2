@@ -3,7 +3,7 @@ titulo: Projeto final - Laboratório de Programação 2 (Web) - Ben 10 Fan page
 descricao: Visão geral do projeto, integrantes, link do site publicado, do protótipo no Figma e da apresentação, além da organização do repositório.
 autores: Pedro Almeida Ribeiro De Castro, Lucas Gabriel Oliveira Reis Dos Santos, Thiago Henrique Cabral Do Nascimento
 versao: v1.0
-ultima_atualizacao: Dia/mês/ano
+ultima_atualizacao: 25/11/2026
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
